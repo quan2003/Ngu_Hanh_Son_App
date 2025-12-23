@@ -1,0 +1,1382 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2350124,
+          16.0469816
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Nhà SHCĐ 03 Chi bộ 7-8-9 An Thượng (các TDP 7, 8, 9, 10, 11",
+        "address": "01 Ung Văn Khiêm",
+        "latitude": 16.0469816,
+        "longitude": 108.2350124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2388731,
+          16.050343
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Nhà SHCĐ Chi bộ KDC 10-11  An Thượng (các TDP 12, 13, 14, 15, 16, 17)",
+        "address": "166 Đỗ Bá",
+        "latitude": 16.050343,
+        "longitude": 108.2388731
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2395409,
+          16.0476961
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nhà SHCĐ Chi bộ KDC 15-16-17 An Thượng (các TDP 18, 19, 20, 21) ",
+        "address": "07 đường An Thượng 14",
+        "latitude": 16.0476961,
+        "longitude": 108.2395409
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2389167,
+          16.0466197
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nhà SHCĐ Chi bộ 18 An Thượng (các TDP 18, 25)",
+        "address": "222 Châu Thị Vĩnh Tế",
+        "latitude": 16.0466197,
+        "longitude": 108.2389167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2427424,
+          16.0466761
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Nhà SHCĐ Chi bộ KDC 22-23 An Thượng (các TDP 26, 27) ",
+        "address": "41 Dương Tự Quán",
+        "latitude": 16.0466761,
+        "longitude": 108.2427424
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2410027,
+          16.0426653
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Nhà SHCĐ Chi bộ KDC 29 Mỹ Đa Đông (các TDP 28, 29, 30, 32, 33) ",
+        "address": "46 Bà Huyện Thanh Quan",
+        "latitude": 16.0426653,
+        "longitude": 108.2410027
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2444668,
+          16.0498009
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nhà SHCĐ TDP 37, 38, 46, 47 ",
+        "address": "KDC 34-35",
+        "latitude": 16.0498009,
+        "longitude": 108.2444668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2423582,
+          16.0416636
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Nhà SHCĐ Chi bộ KDC 36 (các TDP 36, 37, 38, 39)",
+        "address": "Kiệt 77/01 Trần Văn Dư",
+        "latitude": 16.0416636,
+        "longitude": 108.2423582
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2344494,
+          16.0506663
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nhà SHCĐ Chi bộ KDC 40-41-42 (các TDP 48, 49, 50, 51) ",
+        "address": "Kiệt 88/43 Phạm Hữu Kính",
+        "latitude": 16.0506663,
+        "longitude": 108.2344494
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2352698,
+          16.0480205
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Nhà SHCĐ Chi bộ KDC 43-44-45 (các TDP 52, 53, 54) ",
+        "address": "KDC 43-44-45; Kiệt 68/51 đường Dương Khuê",
+        "latitude": 16.0480205,
+        "longitude": 108.2352698
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2359727,
+          16.0453601
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Nhà SHCĐ Chi bộ ... (các TDP 55, 56, 57)",
+        "address": "163 đường Võ Như Hưng",
+        "latitude": 16.0453601,
+        "longitude": 108.2359727
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2392495,
+          16.0433634
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Nhà SHCĐ 02 Chi bộ KDC 51 và Chi bộ 49-50-52 (các TDP 58, 59, 60, 61) ",
+        "address": "Kiệt 02/08/02 đường Phan Hành Sơn",
+        "latitude": 16.0433634,
+        "longitude": 108.2392495
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2378118,
+          16.0394791
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nhà SHCĐ TDP 63, 64, 65 ",
+        "address": "KDC 53-54; 150 Hoài Thanh",
+        "latitude": 16.0394791,
+        "longitude": 108.2378118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.253056,
+          16.031389
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nhà SHCĐ Chi bộ 24-25 và 26-27 (TDP 28, 29, 30, 41)",
+        "address": "177 Bà Huyện Thanh Quan và Mỹ Đa Đông 10",
+        "latitude": 16.031389,
+        "longitude": 108.253056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2431449,
+          16.0394699
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Đông 1 (các TDP 76, 77, 78)  ",
+        "address": "33 Trần Văn Thành ",
+        "latitude": 16.0394699,
+        "longitude": 108.2431449
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425229,
+          16.0388167
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Đông 4 (TDP 81)  ",
+        "address": "Kiệt 50/09 Hồ Xuân Hương",
+        "latitude": 16.0388167,
+        "longitude": 108.2425229
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2410168,
+          16.0355388
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Tây 3 (các TDP 83, 84, 85) ",
+        "address": "10 Mỹ Đa Tây 9",
+        "latitude": 16.0355388,
+        "longitude": 108.2410168
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2397057,
+          16.0331686
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Tây 2 (các TDP  86, 87) ",
+        "address": "đường Mỹ Thị",
+        "latitude": 16.0331686,
+        "longitude": 108.2397057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2378102,
+          16.0328136
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Nhà SHCĐ KDC Đa Mặn 1 (các TDP 90, 92)",
+        "address": " 70 Bùi Tá Hán",
+        "latitude": 16.0328136,
+        "longitude": 108.2378102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2435349,
+          16.0307326
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Nhà SHCĐ KDC Đa Mặn 3 (các TDP 91, 93) ",
+        "address": " 24 Đa Mặn 5",
+        "latitude": 16.0307326,
+        "longitude": 108.2435349
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2456491,
+          16.0239609
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 3A (TDP 96, 98)",
+        "address": "KDC Đa Mặn 3B (kiệt đường Nguyễn Đình Chiểu)",
+        "latitude": 16.0239609,
+        "longitude": 108.2456491
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2480023,
+          16.0258839
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Nhà SHCĐ Chi bộ KDC 4-4A-12 (các TDP 97, 103) ",
+        "address": "28 Đa Mặn Đông 1",
+        "latitude": 16.0258839,
+        "longitude": 108.2480023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2418107,
+          16.0257708
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 2A (các TDP 99, 101) ",
+        "address": "171 Nguyễn Hữu Hào",
+        "latitude": 16.0257708,
+        "longitude": 108.2418107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2496276,
+          16.0205625
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 10 (các TDP 104, 105) ",
+        "address": "225 Lê Văn Hiến",
+        "latitude": 16.0205625,
+        "longitude": 108.2496276
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2452903,
+          16.0225229
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 7 (các TDP 109, 110) ",
+        "address": "Kiệt 45/9 đường K20",
+        "latitude": 16.0225229,
+        "longitude": 108.2452903
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.251095,
+          16.0201059
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 8 (các TDP 113, 114)",
+        "address": "Kiệt 420/48 Lê Văn Hiến",
+        "latitude": 16.0201059,
+        "longitude": 108.251095
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.253582,
+          16.0190196
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 9 (các TDP 116, 117, 118) ",
+        "address": "09 Nguyễn Đình Trân",
+        "latitude": 16.0190196,
+        "longitude": 108.253582
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2412998,
+          16.029942
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 2 (TDP 92)",
+        "address": "20 Đa Mặn 15",
+        "latitude": 16.029942,
+        "longitude": 108.2412998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2407605,
+          16.0255014
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 2A (các TDP 100, 102) - điểm 2",
+        "address": "01 Mạc Cửu và Đa Phước 5",
+        "latitude": 16.0255014,
+        "longitude": 108.2407605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2454515,
+          16.0385977
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Đông 3 - 3A (các TDP 79, 80) ",
+        "address": "10 Vũ Mộng Nguyên",
+        "latitude": 16.0385977,
+        "longitude": 108.2454515
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2423714,
+          16.0368179
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Đông 5 (TDP 82) ",
+        "address": "18 Khuê Mỹ Đông 7",
+        "latitude": 16.0368179,
+        "longitude": 108.2423714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2433441,
+          16.0231786
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 5-6 (các TDP  106, 107) ",
+        "address": "Đa Mặn 5 (152C đường Nguyễn Đình Chiểu)",
+        "latitude": 16.0231786,
+        "longitude": 108.2433441
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2368066,
+          16.0314725
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Tây 1-1A (các TDP 88, 89)",
+        "address": "Nguyễn Quốc Trị và Mỹ Đa Tây 6",
+        "latitude": 16.0314725,
+        "longitude": 108.2368066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.246667,
+          16.031389
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 8 (TDP 115) ",
+        "address": "Bên cạnh trường Trần Đại Nghĩa",
+        "latitude": 16.031389,
+        "longitude": 108.246667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2430139,
+          16.0283304
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 3A (các TDP 94, 95) ",
+        "address": "đường Đa Mặn 10",
+        "latitude": 16.0283304,
+        "longitude": 108.2430139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2476702,
+          16.0206066
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 8A (TDP 112) ",
+        "address": "đường Đa Mặn 3",
+        "latitude": 16.0206066,
+        "longitude": 108.2476702
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.239861,
+          16.0217772
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn (TDP 111) ",
+        "address": "Đường Xóm Đồng",
+        "latitude": 16.0217772,
+        "longitude": 108.239861
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2589419,
+          16.0011025
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Nhà SHCĐ Chi bộ KDC 7",
+        "address": "UBND Hòa Hải cũ, 782 Lê Văn Hiến",
+        "latitude": 16.0011025,
+        "longitude": 108.2589419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2511393,
+          16.0111125
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Nhà SHCĐ Chi bộ KDC 2A-2B (các TDP 122, 123, 125, 126)",
+        "address": "K27 Hải Triều",
+        "latitude": 16.0111125,
+        "longitude": 108.2511393
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2481408,
+          16.0153768
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nhà SHCĐ Chi bộ KDC 2C (TDP 124)",
+        "address": "24 Khuê Bắc 1",
+        "latitude": 16.0153768,
+        "longitude": 108.2481408
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2535629,
+          16.0089058
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nhà SHCĐ Chi bộ KDC 3A-3B (các TDP 127, 128, 129)",
+        "address": "Kiệt 27/10 Đặng Thái Thân",
+        "latitude": 16.0089058,
+        "longitude": 108.2535629
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2531653,
+          16.0148114
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Nhà SHCĐ Chi bộ KDC 4A (các TDP 130, 131, 132",
+        "address": "Nguyễn Xiển",
+        "latitude": 16.0148114,
+        "longitude": 108.2531653
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2539543,
+          16.0062679
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Nhà SHCĐ Chi bộ KDC 6 (các TDP 135, 136) ",
+        "address": "40 Thổ Sơn 1",
+        "latitude": 16.0062679,
+        "longitude": 108.2539543
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2604712,
+          15.9971362
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nhà SHCĐ Chi bộ KDC 8A (các TDP 139, 140) ",
+        "address": "Phía Tây Nghĩa trang liệt sĩ Hòa Hải",
+        "latitude": 15.9971362,
+        "longitude": 108.2604712
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2534051,
+          15.9905522
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Nhà Văn hóa Chi bộ KDC 8B-8C (các TDP 143, 144, 145) ",
+        "address": "26 Lộc Ninh",
+        "latitude": 15.9905522,
+        "longitude": 108.2534051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2486731,
+          15.9921509
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nhà SHCĐ Chi bộ KDC 9A (các TDP 146, 147, 194)",
+        "address": "175 Mai Đăng Chơn",
+        "latitude": 15.9921509,
+        "longitude": 108.2486731
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2542312,
+          15.9886748
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Nhà SHCĐ Chi bộ KDC 9B (các TDP 148, 149, 150, 151, 152, 153)",
+        "address": "01 Ngô Viết Hữu ",
+        "latitude": 15.9886748,
+        "longitude": 108.2542312
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.251405,
+          15.980041
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Nhà Văn hóa Chi bộ KDC 10B-10C (các TDP 154, 155, 156, 157, 158)",
+        "address": "Lê Trung Đình - Nguyễn Thức Tự ",
+        "latitude": 15.980041,
+        "longitude": 108.251405
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.253854,
+          15.9774951
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Nhà SHCĐ Chi bộ KDC 10A (các TDP 159, 160, 161)",
+        "address": "14 Trà Khê 6",
+        "latitude": 15.9774951,
+        "longitude": 108.253854
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2578269,
+          15.9774974
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nhà SHCĐ Chi bộ KDC 12 (TDP 165) ",
+        "address": "16 Trà Khê 1",
+        "latitude": 15.9774974,
+        "longitude": 108.2578269
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2609695,
+          15.9977519
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nhà SHCĐ Chi bộ KDC 13A-13B (các TDP 166, 167, 168, 169)",
+        "address": "Phía Đông Nghĩa trang liệt sĩ Hòa Hải",
+        "latitude": 15.9977519,
+        "longitude": 108.2609695
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2619126,
+          15.9986523
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Nhà SHCĐ Chi bộ KDC Đông Hải 14 (các TDP 170, 171, 172) ",
+        "address": "91 Nguyễn Duy Trinh",
+        "latitude": 15.9986523,
+        "longitude": 108.2619126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2574102,
+          16.0024789
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Nhà SHCĐ Chi bộ KDC Đông Hải 15-16A (các TDP  173, 174, 175, 176) ",
+        "address": "04 Huyền Trân Công Chúa",
+        "latitude": 16.0024789,
+        "longitude": 108.2574102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2638496,
+          15.992612
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Nhà SHCĐ Chi bộ KDC Đông Hải 17A-17B (các TDP 179, 180, 181, 182)",
+        "address": "229 Nguyễn Duy Trinh",
+        "latitude": 15.992612,
+        "longitude": 108.2638496
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2656653,
+          15.9914761
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Nhà SHCĐ Chi bộ KDC Đông Hải 18A-18B (các TDP 183, 184, 185, 186)",
+        "address": "09 Đông Hải 4 - Đông Hải 14",
+        "latitude": 15.9914761,
+        "longitude": 108.2656653
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2653227,
+          15.982739
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nhà SHCĐ Chi bộ KDC Đông Hải 19A-19B (các TDP 187, 188, 189)",
+        "address": "31 Huỳnh Thị Một",
+        "latitude": 15.982739,
+        "longitude": 108.2653227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2674001,
+          15.9794526
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Nhà SHCĐ Chi bộ KDC Đông Hải 20A-20B (các TDP 190, 191, 192)",
+        "address": "121 Trà Lộ",
+        "latitude": 15.9794526,
+        "longitude": 108.2674001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.271006,
+          15.980559
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Nhà SHCĐ Chi bộ KDC Đông Hải 21A-21B (các TDP 193)",
+        "address": "145 Kim Đồng",
+        "latitude": 15.980559,
+        "longitude": 108.271006
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2639439,
+          15.9983701
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Nhà SHCĐ Chi bộ KDC 16B (TDP 178)",
+        "address": "47 Dương Tôn Hải",
+        "latitude": 15.9983701,
+        "longitude": 108.2639439
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2505369,
+          16.0190456
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Nhà SHCĐ Chi bộ KDC 5 (các TDP 133, 134) ",
+        "address": "Kiệt 387 Lê Văn Hiến",
+        "latitude": 16.0190456,
+        "longitude": 108.2505369
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2341398,
+          15.9942732
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Nhà SHCĐ Chi bộ KDC Bình Kỳ (các TDP 195, 196, 197)",
+        "address": "Kiệt 115 đường Bình Kỳ",
+        "latitude": 15.9942732,
+        "longitude": 108.2341398
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2377457,
+          15.9897364
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Nhà SHCĐ Chi bộ KDC Bình Kỳ 1 (các TDP 198, 199, 200)",
+        "address": "Kiệt 115, 432/9 đường Bình Kỳ",
+        "latitude": 15.9897364,
+        "longitude": 108.2377457
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2341754,
+          15.9989731
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nhà SHCĐ Chi bộ Bình Kỳ 2B (TDP 203)",
+        "address": "Đình làng Bình Kỳ - đường Phi Bình 8",
+        "latitude": 15.9989731,
+        "longitude": 108.2341754
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2365583,
+          15.9947719
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nhà SHCĐ Chi bộ KDC Bình Kỳ 2A (các TDP 206, 207, 208)",
+        "address": "101 đường Bình Kỳ",
+        "latitude": 15.9947719,
+        "longitude": 108.2365583
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2377451,
+          15.9897347
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Nhà SHCĐ Chi bộ KDC Bá Tùng (các TDP 209, 210, 211) ",
+        "address": "215 đường Bình Kỳ",
+        "latitude": 15.9897347,
+        "longitude": 108.2377451
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2404943,
+          15.988055
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Nhà SHCĐ Chi bộ KDC Bá Tùng 1 (các TDP 213, 214, 215) ",
+        "address": "186 Mai Đăng Chơn",
+        "latitude": 15.988055,
+        "longitude": 108.2404943
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23711,
+          15.9746915
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nhà SHCĐ Chi bộ KDC Khái Tây 2A (TDP 216)",
+        "address": "đường Khái Tây 2",
+        "latitude": 15.9746915,
+        "longitude": 108.23711
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2354004,
+          15.9791846
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Nhà SHCĐ Chi bộ Khái Tây 2A (các TDP 218, 219)",
+        "address": "22 đường Khái Tây 1",
+        "latitude": 15.9791846,
+        "longitude": 108.2354004
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2355148,
+          15.9838243
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nhà SHCĐ Chi bộ Khái Tây 2B (các TDP 220, 221, 222, 223)",
+        "address": "Cao Hồng Lãnh - Mai Đăng Chơn",
+        "latitude": 15.9838243,
+        "longitude": 108.2355148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2353976,
+          15.9866557
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Nhà SHCĐ Chi bộ KDC Khuê Đông 1 (các TDP  số 224, 225, 226, 227, 228, 229) ",
+        "address": "89 Thái Văn A",
+        "latitude": 15.9866557,
+        "longitude": 108.2353976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.227468,
+          15.9886962
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Nhà SHCĐ Chi bộ KDC Khuê Đông 2 (các TDP 231, 232, 233)",
+        "address": "56 Hòa Bình 1",
+        "latitude": 15.9886962,
+        "longitude": 108.227468
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2266722,
+          15.9848489
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Nhà Văn hóa Chi bộ KDC Mân Quang 1 (các TDP  234, 235, 236) ",
+        "address": "Thân Văn Nhiếp - Hoàng Hối Khanh",
+        "latitude": 15.9848489,
+        "longitude": 108.2266722
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2238005,
+          15.9778282
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nhà SHCĐ Chi bộ KDC Mân Quang 2 (các TDP  237, 238, 239) ",
+        "address": "đường vào Khu di tích 45 Học sinh Mân Quang",
+        "latitude": 15.9778282,
+        "longitude": 108.2238005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2158459,
+          15.9689094
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nhà Trú bão đa năng kèm SHCĐ Chi bộ KDC An Lưu (TDP  240) ",
+        "address": "đường dưới cầu Hòa Phước vào KDC An Lưu",
+        "latitude": 15.9689094,
+        "longitude": 108.2158459
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275066,
+          15.9644019
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Nhà SHCĐ Chi bộ KDC Thị An (các TDP 241, 242, 243) ",
+        "address": "đường Mai Đăng Chơn (trước trường Cao đẳng Đà Nẵng)",
+        "latitude": 15.9644019,
+        "longitude": 108.2275066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2348848,
+          15.9831949
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Nhà SHCĐ Chi bộ KDC Khái Tây (các TDP  244, 245, 246) ",
+        "address": "đường Mai Đăng Chơn (trước khu điện cao thế 500KV)",
+        "latitude": 15.9831949,
+        "longitude": 108.2348848
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2364469,
+          15.9719187
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Nhà SHCĐ Chi bộ KDC Khái Tây 1 (các TDP  247, 248, 249, 250) ",
+        "address": "Đường Lưu Quang Vũ",
+        "latitude": 15.9719187,
+        "longitude": 108.2364469
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2271599,
+          15.9831946
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Nhà SHCĐ Chi bộ KDC Hải An (các TDP  251, 252, 253, 254) ",
+        "address": "Kiệt đường Lưu Quang Vũ cạnh 50m Nhà SHCĐ Khái Tây 1",
+        "latitude": 15.9831946,
+        "longitude": 108.2271599
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2369833,
+          15.9719908
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nhà SHCĐ Chi bộ KDC Hải An 1 (các TDP  255, 256)",
+        "address": "Đường Lưu Quang Vũ (khu vực giải tỏa Làng Đại học)",
+        "latitude": 15.9719908,
+        "longitude": 108.2369833
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2449191,
+          16.0127596
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Nhà SHCĐ Chi bộ Khuê Đông 3 (TDP  259) ",
+        "address": "đường Hòa Quý cạnh cầu Bờ Quan",
+        "latitude": 16.0127596,
+        "longitude": 108.2449191
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2445451,
+          16.0087235
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Nhà SHCĐ Chi bộ KDC Khuê Đông 4 (các TDP  258, 259, 260)",
+        "address": "40 đường Bờ Quan 3",
+        "latitude": 16.0087235,
+        "longitude": 108.2445451
+      }
+    }
+  ]
+}

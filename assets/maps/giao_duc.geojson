@@ -1,0 +1,755 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2408848,
+          16.0398743
+        ]
+      },
+      "properties": {
+        "name": "Trường THCS Lê Lợi",
+        "address": "Số 07 đường Hồ Xuân Hương",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22286,
+          16.0398733
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Lê Lai",
+        "address": "Số 87 đường Ngũ Hành Sơn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2475272,
+          16.0257255
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Sen Hồng",
+        "address": "Số 06 đường Trần Hoành",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.242539,
+          16.0432557
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non quốc tế Little Giants",
+        "address": "Số 04 đường Chế Lan Viên",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2363912,
+          16.0398615
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Lê Bá Trinh",
+        "address": "Số 96 đường An Dương Vương",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2356229,
+          16.0450038
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non PiKaChu",
+        "address": "Số 222 đường Võ Như Hưng",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2415293,
+          16.0459566
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Ngôi Sao Nhỏ",
+        "address": "Số 228 đường Châu Thị Vĩnh Tế",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2445426,
+          16.0467793
+        ]
+      },
+      "properties": {
+        "name": "Trường Chuyên biệt Tư thục Thanh Tâm",
+        "address": "Số 121 đường Phan Tứ",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2346025,
+          16.0473934
+        ]
+      },
+      "properties": {
+        "name": "Trường Đại học Kinh tế",
+        "address": "Số 71 đường Ngũ Hành Sơn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2085237,
+          15.9784461
+        ]
+      },
+      "properties": {
+        "name": "Trường ĐH Kỹ thuật Y dược Đà Nẵng (CS2)",
+        "address": "Số 34 đường Nam Kỳ Khởi Nghĩa",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2345073,
+          16.009466
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non SunKid",
+        "address": "Số 50 đường Bà Bang Nhãn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2583164,
+          15.9688859
+        ]
+      },
+      "properties": {
+        "name": "Trường Đại học FPT Đà Nẵng",
+        "address": "Khu đô thị công nghệ FPT",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2491976,
+          16.0139082
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Nguyễn Duy Trinh",
+        "address": "12 Chu Cẩm Phong",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1693705,
+          16.0138925
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Bảo Anh",
+        "address": "16 Phan Tứ",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2369305,
+          16.0400141
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Đôrêmon",
+        "address": "372 Ngũ Hành Sơn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2461518,
+          16.0470988
+        ]
+      },
+      "properties": {
+        "name": "Trường Cao đẳng Đà Nẵng",
+        "address": "170 Lê Quang Đạo",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.243422,
+          16.0298743
+        ]
+      },
+      "properties": {
+        "name": "Trường PT Herman Gmeiner",
+        "address": "15 Nguyễn Đình Chiểu",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.238913,
+          16.0422254
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Bạch Dương",
+        "address": "25 Dương Thị Xuân Quý",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2420564,
+          16.0325668
+        ]
+      },
+      "properties": {
+        "name": "Trường Mẫu giáo SOS",
+        "address": "Kiệt 142/15 Lê Văn Hiến",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2413342,
+          16.0315105
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Họa My",
+        "address": "198–200 Lê Văn Hiến",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2521625,
+          16.0104186
+        ]
+      },
+      "properties": {
+        "name": "Trường THPT Ngũ Hành Sơn",
+        "address": "24 Bà Bang Nhãn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.257147,
+          15.9902958
+        ]
+      },
+      "properties": {
+        "name": "Trường Quốc tế Việt Nam – Singapore",
+        "address": "Vùng Trung 3, KĐT Phú Mỹ An",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2575128,
+          15.9899854
+        ]
+      },
+      "properties": {
+        "name": "Trường CĐ Quốc tế Pegasus",
+        "address": "Vùng Trung 3, KĐT Phú Mỹ An",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2471518,
+          15.9824103
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Lê Văn Hiến",
+        "address": "02 Huỳnh Văn Nghệ",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2085268,
+          15.9824063
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Ngọc Lan",
+        "address": "08 Ấp Bắc",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2512099,
+          15.9918856
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Sóc Nâu",
+        "address": "14–16–18 Quán Khái 4",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9460121,
+          16.0187878
+        ]
+      },
+      "properties": {
+        "name": "Trường THCS Trần Đại Nghĩa",
+        "address": "Nguyễn Đức Thuận",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2454626,
+          16.0263324
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Trần Quang Diệu",
+        "address": "04 Trần Hoành",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2411507,
+          16.0363016
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Sao Khuê 2",
+        "address": "48 Lê Văn Hiến",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2397385,
+          16.0295239
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Xanh Tuệ Đức",
+        "address": "Ngã tư Bùi Tá Hán – Đoàn Khuê",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1599114,
+          16.0295081
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Tuổi Thần Tiên",
+        "address": "80 Bùi Tá Hán",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2315182,
+          15.9919929
+        ]
+      },
+      "properties": {
+        "name": "Trường THPT Võ Chí Công",
+        "address": "93A Cao Hồng Lãnh",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1516911,
+          15.9919772
+        ]
+      },
+      "properties": {
+        "name": "Trường THCS Nguyễn Bỉnh Khiêm",
+        "address": "304 Mai Đăng Chơn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2376977,
+          15.9954225
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Tô Hiến Thành",
+        "address": "Đường Bình Kỳ, Hòa Quý",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2361445,
+          15.9849431
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Hoàng Anh",
+        "address": "22 Phan Tốn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2168324,
+          15.9849421
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Vàng Anh",
+        "address": "Lưu Quang Vũ – Thị An, Hòa Quý",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.15503,
+          15.9849255
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Ngôi Sao Xanh",
+        "address": "Đường Mai Đăng Chơn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2551258,
+          15.9771443
+        ]
+      },
+      "properties": {
+        "name": "Trường Cao đẳng Du lịch Đà Nẵng",
+        "address": "Đường Nam Kỳ Khởi Nghĩa",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2610647,
+          15.9947241
+        ]
+      },
+      "properties": {
+        "name": "Trường THCS Huỳnh Bá Chánh",
+        "address": "172 Nguyễn Duy Trinh",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2631726,
+          15.9935606
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Mai Đăng Chơn",
+        "address": "215 Nguyễn Duy Trinh",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2629258,
+          15.9928659
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Hoàng Lan",
+        "address": "Đông Hải 1",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2696992,
+          15.9846679
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Tân Trà",
+        "address": "Đường Tân Trà",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1302766,
+          16.0222963
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Hướng Dương",
+        "address": "764 Lê Văn Hiến",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1302766,
+          16.0222884
+        ]
+      },
+      "properties": {
+        "name": "Trường Y Dược – ĐH Đà Nẵng",
+        "address": "Lưu Quang Vũ, KĐT ĐH Đà Nẵng",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2506521,
+          15.9752603
+        ]
+      },
+      "properties": {
+        "name": "Trường ĐH Công nghệ & Truyền thông Việt–Hàn",
+        "address": "470 Trần Đại Nghĩa",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2580268,
+          15.9794083
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học và THCS FPT Đà Nẵng",
+        "address": "KĐT Công nghệ FPT",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2557819,
+          15.9725317
+        ]
+      },
+      "properties": {
+        "name": "Trường Trung học phổ thông FPT Đà Nẵng",
+        "address": "KĐT Công nghệ FPT",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2548175,
+          15.9739293
+        ]
+      },
+      "properties": {
+        "name": "Trường TH–THCS–THPT quốc tế APU",
+        "address": "299 Trần Đại Nghĩa",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.236321,
+          15.9838379
+        ]
+      },
+      "properties": {
+        "name": "Trường Tiểu học Phạm Hồng Thái",
+        "address": "461 Mai Đăng Chơn",
+        "Layer": "GIAO_DUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2557659,
+          15.9828346
+        ]
+      },
+      "properties": {
+        "name": "Trường Mầm non Thế Giới Toàn Cầu",
+        "address": "Smart Nano Flat, KĐT CN FPT",
+        "Layer": "GIAO_DUC"
+      }
+    }
+  ]
+}

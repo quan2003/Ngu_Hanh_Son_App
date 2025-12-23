@@ -1,0 +1,681 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_map/flutter_map.dart';
+import 'package:latlong2/latlong.dart';
+import 'package:geolocator/geolocator.dart';
+import '../../../core/constants/app_constants.dart';
+import '../../../core/theme/app_colors.dart';
+import '../../../core/services/geojson_service.dart';
+import '../../../core/services/tile_service.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart' as gmaps;
+
+class MapScreen extends StatefulWidget {
+  const MapScreen({super.key});
+
+  @override
+  State<MapScreen> createState() => _MapScreenState();
+}
+
+class _MapScreenState extends State<MapScreen> {
+  final MapController _mapController = MapController();
+  final TileService _tileService = TileService();
+
+  final List<Marker> _markers = [
+    Marker(
+      point: const LatLng(16.0544, 108.2022),
+      width: 80,
+      height: 80,
+      child: const Icon(
+        Icons.location_pin,
+        color: AppColors.error,
+        size: 40,
+      ),
+    ),
+  ];
+  bool _showChiBo = false;
+  bool _showPublicPlaces = false;
+  bool _showGeoJson = true;
+  
+  List<GeoJsonFeature> _geoJsonFeatures = [];
+  bool _isLoadingGeoJson = false;
+  double _currentZoom = 14.5;
+    @override
+  void initState() {
+    super.initState();
+    _initializeTileSystem();
+  }
+  
+  Future<void> _initializeTileSystem() async {
+    try {
+      print('🔧 Initializing tile system...');
+      await _tileService.loadTileIndex();
+      print('✅ Tile system initialized');
+      // Don't load tiles here - wait for map to be ready
+    } catch (e, stackTrace) {
+      print('❌ Error initializing tile system: $e');
+      print('Stack: $stackTrace');
+    }
+  }
+  
+  Future<void> _loadVisibleTiles() async {
+    if (!_showGeoJson) {
+      print('⏭️ GeoJSON layer disabled, skipping tile load');
+      return;
+    }
+    
+    setState(() {
+      _isLoadingGeoJson = true;
+    });
+    
+    try {
+      // Get current map bounds
+      final camera = _mapController.camera;
+      final bounds = camera.visibleBounds;
+      
+      print('📍 Current map center: ${camera.center.latitude}, ${camera.center.longitude}');
+      print('📍 Current zoom: ${camera.zoom}');
+      print('📍 Bounds: ${bounds.south}-${bounds.north}, ${bounds.west}-${bounds.east}');
+      
+      // Convert flutter_map bounds to google_maps bounds
+      final gmapsBounds = gmaps.LatLngBounds(
+        southwest: gmaps.LatLng(bounds.south, bounds.west),
+        northeast: gmaps.LatLng(bounds.north, bounds.east),
+      );
+      
+      // Load tiles for current viewport
+      final tiles = await _tileService.loadTilesForViewport(gmapsBounds, _currentZoom);
+      
+      print('📦 Loaded ${tiles.length} tiles');
+      
+      // Merge all features from tiles
+      final List<GeoJsonFeature> allFeatures = [];
+      for (final tile in tiles) {
+        final features = tile['features'] as List?;
+        if (features != null) {
+          for (final featureData in features) {
+            allFeatures.add(GeoJsonFeature.fromJson(featureData));
+          }
+        }
+      }
+          for (final featureData in features) {
+            allFeatures.add(GeoJsonFeature.fromJson(featureData));
+          }
+        }
+      }
+      
+      setState(() {
+        _geoJsonFeatures = allFeatures;
+        _isLoadingGeoJson = false;
+      });
+      
+      if (mounted && allFeatures.isNotEmpty) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Đã tải ${allFeatures.length} đối tượng từ ${tiles.length} tiles'),
+            backgroundColor: Colors.green,
+            duration: const Duration(seconds: 2),
+          ),
+        );
+      }
+    } catch (e, stackTrace) {
+      print('❌ Error loading visible tiles: $e');
+      print('Stack trace: $stackTrace');
+      
+      setState(() {
+        _isLoadingGeoJson = false;
+      });
+    }
+  }
+    void _onMapEvent(MapEvent event) {
+    // Update current zoom
+    _currentZoom = _mapController.camera.zoom;
+    
+    // Reload tiles when map moves or zooms significantly
+    if (event is MapEventMoveEnd || event is MapEventScrollWheelZoom) {
+      _loadVisibleTiles();
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Bản đồ'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.search),
+            onPressed: _showSearch,
+          ),
+          IconButton(
+            icon: const Icon(Icons.layers),
+            onPressed: _showLayerOptions,
+          ),
+        ],
+      ),      body: Stack(
+        children: [          // Map          FlutterMap(
+            mapController: _mapController,
+            options: MapOptions(
+              initialCenter: const LatLng(
+                AppConstants.defaultLatitude,
+                AppConstants.defaultLongitude,
+              ),
+              initialZoom: AppConstants.defaultZoom,
+              minZoom: 12,
+              maxZoom: 18,
+              onMapEvent: _onMapEvent,
+              onMapReady: () {
+                print('🗺️ Map is ready, loading initial tiles...');
+                _loadVisibleTiles();
+              },
+            ),children: [
+              TileLayer(
+                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                userAgentPackageName: 'vn.nguhanhson.dangbo',
+              ),
+              // GeoJSON Polygons
+              if (_showGeoJson && _geoJsonFeatures.isNotEmpty)
+                PolygonLayer(
+                  polygons: _buildGeoJsonPolygons(),
+                ),
+              // GeoJSON Markers/Points
+              if (_showGeoJson && _geoJsonFeatures.isNotEmpty)
+                MarkerLayer(markers: _buildGeoJsonMarkers()),
+              // GeoJSON Lines
+              if (_showGeoJson && _geoJsonFeatures.isNotEmpty)
+                PolylineLayer(
+                  polylines: _buildGeoJsonPolylines(),
+                ),
+              if (_showChiBo)
+                PolygonLayer(
+                  polygons: [
+                    Polygon(
+                      points: [
+                        const LatLng(16.055, 108.201),
+                        const LatLng(16.056, 108.203),
+                        const LatLng(16.054, 108.204),
+                        const LatLng(16.053, 108.202),
+                      ],
+                      color: AppColors.chiBoPolygon,
+                      borderColor: AppColors.chiBoStroke,
+                      borderStrokeWidth: 2,
+                      isFilled: true,
+                    ),
+                  ],
+                ),
+              if (_showPublicPlaces) MarkerLayer(markers: _markers),
+            ],
+          ),
+          // Legend
+          Positioned(
+            top: 16,
+            left: 16,
+            child: Card(
+              child: Padding(
+                padding: const EdgeInsets.all(12),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const Text(
+                      'Chú thích',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    const SizedBox(height: 8),                    _buildLegendItem(
+                      AppColors.chiBoStroke,
+                      'Chi bộ',
+                    ),
+                    _buildLegendItem(
+                      AppColors.error,
+                      'Địa điểm công cộng',
+                    ),
+                    if (_showGeoJson)
+                      _buildLegendItem(
+                        Colors.blue,
+                        'GeoJSON Data',
+                      ),
+                  ],
+                ),              ),
+            ),
+          ),
+          // Loading indicator
+          if (_isLoadingGeoJson)
+            Container(
+              color: Colors.black26,
+              child: const Center(
+                child: Card(
+                  child: Padding(
+                    padding: EdgeInsets.all(20),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        CircularProgressIndicator(),
+                        SizedBox(height: 16),
+                        Text(
+                          'Đang tải dữ liệu GeoJSON...',
+                          style: TextStyle(fontSize: 16),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          // My Location Button
+          Positioned(
+            right: 16,
+            bottom: 80,
+            child: FloatingActionButton(
+              heroTag: 'myLocation',
+              mini: true,
+              backgroundColor: Colors.white,
+              onPressed: _goToMyLocation,
+              child: const Icon(
+                Icons.my_location,
+                color: AppColors.primary,
+              ),
+            ),
+          ),
+        ],
+      ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: _showSearch,
+        backgroundColor: AppColors.primary,
+        icon: const Icon(Icons.search, color: AppColors.textLight),
+        label: const Text(
+          'Tìm kiếm',
+          style: TextStyle(color: AppColors.textLight),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildLegendItem(Color color, String label) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Container(
+            width: 16,
+            height: 16,
+            decoration: BoxDecoration(
+              color: color,
+              border: Border.all(color: color, width: 2),
+              borderRadius: BorderRadius.circular(4),
+            ),
+          ),
+          const SizedBox(width: 8),
+          Text(label, style: const TextStyle(fontSize: 14)),
+        ],
+      ),
+    );
+  }
+
+  void _showSearch() {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (context) => Container(
+        padding: EdgeInsets.only(
+          bottom: MediaQuery.of(context).viewInsets.bottom,
+        ),
+        decoration: const BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text(
+                'Tìm kiếm trên bản đồ',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 16),
+              TextField(
+                autofocus: true,
+                decoration: const InputDecoration(
+                  hintText: 'Nhập tên người, địa chỉ...',
+                  prefixIcon: Icon(Icons.search),
+                ),
+                onSubmitted: (value) {
+                  Navigator.pop(context);
+                  // TODO: Implement search
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Tìm kiếm: $value')),
+                  );
+                },
+              ),
+              const SizedBox(height: 16),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+  void _showLayerOptions() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Lớp hiển thị'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CheckboxListTile(
+              title: const Text('GeoJSON Data'),
+              subtitle: Text('${_geoJsonFeatures.length} đối tượng'),
+              value: _showGeoJson,
+              onChanged: (value) {
+                setState(() => _showGeoJson = value ?? false);
+                Navigator.pop(context);
+              },
+            ),
+            CheckboxListTile(
+              title: const Text('Chi bộ'),
+              value: _showChiBo,
+              onChanged: (value) {
+                setState(() => _showChiBo = value ?? false);
+                Navigator.pop(context);
+              },
+            ),
+            CheckboxListTile(
+              title: const Text('Địa điểm công cộng'),
+              value: _showPublicPlaces,
+              onChanged: (value) {
+                setState(() => _showPublicPlaces = value ?? false);
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Đóng'),
+          ),
+        ],
+      ),
+    );
+  }  Future<void> _goToMyLocation() async {
+    try {
+      // Check if location services are enabled
+      bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
+      if (!serviceEnabled) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Dịch vụ định vị chưa được bật'),
+              backgroundColor: Colors.orange,
+            ),
+          );
+        }
+        return;
+      }
+
+      // Check location permission
+      LocationPermission permission = await Geolocator.checkPermission();
+      if (permission == LocationPermission.denied) {
+        permission = await Geolocator.requestPermission();
+        if (permission == LocationPermission.denied) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text('Quyền truy cập vị trí bị từ chối'),
+                backgroundColor: Colors.red,
+              ),
+            );
+          }
+          return;
+        }
+      }
+
+      if (permission == LocationPermission.deniedForever) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Quyền truy cập vị trí bị từ chối vĩnh viễn. Vui lòng bật trong cài đặt.'),
+              backgroundColor: Colors.red,
+              duration: Duration(seconds: 3),
+            ),
+          );
+        }
+        return;
+      }
+
+      // Get current position
+      Position position = await Geolocator.getCurrentPosition(
+        desiredAccuracy: LocationAccuracy.high,
+      );
+
+      // Move map to current location
+      _mapController.move(
+        LatLng(position.latitude, position.longitude),
+        16.0,
+      );
+
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Đã định vị vị trí của bạn'),
+            backgroundColor: Colors.green,
+            duration: Duration(seconds: 1),
+          ),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Lỗi khi lấy vị trí: $e'),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    }
+  }  List<Polygon> _buildGeoJsonPolygons() {
+    final List<Polygon> polygons = [];
+    
+    for (var feature in _geoJsonFeatures) {
+      if (feature.type == 'Polygon') {
+        final rings = GeoJsonService.parsePolygonCoordinates(feature.coordinates, simplifyEveryN: 10);
+        if (rings.isNotEmpty && rings[0].isNotEmpty) {
+          final color = _getPolygonColor(feature);
+          polygons.add(
+            Polygon(
+              points: rings[0], // Outer ring
+              holePointsList: rings.length > 1 ? rings.sublist(1) : null,
+              color: color.withOpacity(0.3),
+              borderColor: color.withOpacity(0.7),
+              borderStrokeWidth: 1.5,
+              isFilled: true,
+            ),
+          );
+        }
+      } else if (feature.type == 'MultiPolygon') {
+        final multiPolygons = GeoJsonService.parseMultiPolygonCoordinates(feature.coordinates, simplifyEveryN: 10);
+        for (var polygonRings in multiPolygons) {
+          if (polygonRings.isNotEmpty && polygonRings[0].isNotEmpty) {
+            final color = _getPolygonColor(feature);
+            polygons.add(
+              Polygon(
+                points: polygonRings[0],
+                holePointsList: polygonRings.length > 1 ? polygonRings.sublist(1) : null,
+                color: color.withOpacity(0.3),
+                borderColor: color.withOpacity(0.7),
+                borderStrokeWidth: 1.5,
+                isFilled: true,
+              ),
+            );
+          }
+        }
+      }
+    }
+    
+    return polygons;
+  }
+  
+  List<Marker> _buildGeoJsonMarkers() {
+    final List<Marker> markers = [];
+    
+    for (var feature in _geoJsonFeatures) {
+      if (feature.type == 'Point') {
+        final points = GeoJsonService.parseCoordinates([feature.coordinates]);
+        if (points.isNotEmpty) {
+          markers.add(
+            Marker(
+              point: points[0],
+              width: 40,
+              height: 40,
+              child: GestureDetector(
+                onTap: () => _showFeatureInfo(feature),
+                child: const Icon(
+                  Icons.place,
+                  color: Colors.red,
+                  size: 40,
+                ),
+              ),
+            ),
+          );
+        }
+      }
+    }
+    
+    return markers;
+  }
+    List<Polyline> _buildGeoJsonPolylines() {
+    final List<Polyline> polylines = [];
+    
+    for (var feature in _geoJsonFeatures) {
+      if (feature.type == 'LineString') {
+        final points = GeoJsonService.parseCoordinates(feature.coordinates, simplifyEveryN: 10);
+        if (points.isNotEmpty) {
+          polylines.add(
+            Polyline(
+              points: points,
+              color: _getPolygonColor(feature),
+              strokeWidth: 2.0,
+            ),
+          );
+        }
+      } else if (feature.type == 'MultiLineString') {
+        if (feature.coordinates is List) {
+          for (var lineCoords in feature.coordinates) {
+            final points = GeoJsonService.parseCoordinates(lineCoords, simplifyEveryN: 10);
+            if (points.isNotEmpty) {
+              polylines.add(
+                Polyline(
+                  points: points,
+                  color: _getPolygonColor(feature),
+                  strokeWidth: 2.0,
+                ),
+              );
+            }
+          }
+        }
+      }
+    }
+    
+    return polylines;
+  }
+    Color _getPolygonColor(GeoJsonFeature feature) {
+    // You can customize colors based on properties
+    final color = feature.properties['color'] as String?;
+    if (color != null) {
+      try {
+        return Color(int.parse(color.replaceFirst('#', '0xFF')));
+      } catch (e) {
+        // Invalid color format
+      }
+    }
+    
+    // Check layer name for different colors
+    final layer = feature.properties['Layer'] as String?;
+    if (layer != null) {
+      if (layer.contains('duong') || layer.contains('road')) {
+        return Colors.grey.shade600;
+      } else if (layer.contains('nha') || layer.contains('building')) {
+        return Colors.orange.shade300;
+      } else if (layer.contains('san') || layer.contains('court')) {
+        return Colors.green.shade300;
+      }
+    }
+    
+    // Default colors based on feature type - more subtle and map-like
+    switch (feature.type) {
+      case 'Polygon':
+      case 'MultiPolygon':
+        return Colors.blue.shade200; // Light blue for areas
+      case 'LineString':
+      case 'MultiLineString':
+        return Colors.grey.shade700; // Dark grey for lines
+      case 'Point':
+        return Colors.red.shade400;
+      default:
+        return Colors.grey.shade400;
+    }
+  }
+  
+  void _showFeatureInfo(GeoJsonFeature feature) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(feature.name ?? 'Thông tin'),
+        content: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              if (feature.name != null) ...[
+                const Text(
+                  'Tên:',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                Text(feature.name!),
+                const SizedBox(height: 8),
+              ],
+              if (feature.description != null) ...[
+                const Text(
+                  'Mô tả:',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                Text(feature.description!),
+                const SizedBox(height: 8),
+              ],
+              const Text(
+                'Loại:',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(feature.type),
+              if (feature.properties.isNotEmpty) ...[
+                const SizedBox(height: 8),
+                const Text(
+                  'Thuộc tính:',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                ...feature.properties.entries.map(
+                  (e) => Padding(
+                    padding: const EdgeInsets.only(left: 8, top: 4),
+                    child: Text('${e.key}: ${e.value}'),
+                  ),
+                ),
+              ],
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Đóng'),
+          ),
+        ],
+      ),
+    );
+  }
+}

@@ -1,0 +1,139 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+      // Helper function to check if user is admin
+    function isAdmin() {
+      return isAuthenticated() && 
+             exists(/databases/$(database)/documents/system_settings/admin_emails) &&
+             request.auth.token.email in get(/databases/$(database)/documents/system_settings/admin_emails).data.emails;
+    }
+    
+    // Helper function to check if user owns the document
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Users collection
+    match /users/{userId} {
+      // Anyone authenticated can read any user (for displaying user info)
+      allow read: if isAuthenticated();
+      
+      // Users can create their own document
+      allow create: if isAuthenticated() && isOwner(userId);
+      
+      // Users can update their own document, admins can update any
+      allow update: if isOwner(userId) || isAdmin();
+      
+      // Only admins can delete users
+      allow delete: if isAdmin();
+    }
+      // System settings collection (admin emails, theme settings, etc)
+    match /system_settings/{document} {
+      // Anyone authenticated can read system settings (needed to check admin status)
+      allow read: if isAuthenticated();
+      
+      // Only admins can write system settings
+      allow write: if isAdmin();
+    }
+    
+    // Config collection (deprecated, use system_settings instead)
+    match /config/{document} {
+      // Anyone authenticated can read config
+      allow read: if isAuthenticated();
+      
+      // Only admins can write config
+      allow write: if isAdmin();
+    }
+    
+    // Dang Bo collection
+    match /dang_bo/{dangBoId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+      // Chi Bo collection
+    match /chi_bo/{chiBoId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+    
+    // To Chuc Dang collection (NEW)
+    match /to_chuc_dang/{toChucDangId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+      // To Dan Pho collection (NEW)
+    match /to_dan_pho/{toDanPhoId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+    
+    // Household Stats collection (Số hộ gia đình)
+    match /household_stats/{statsId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+      // Feedback collection
+    match /feedbacks/{feedbackId} {
+      // Authenticated users can read their own feedback
+      allow read: if isAuthenticated() && 
+                     (isOwner(resource.data.userId) || isAdmin());
+      
+      // Authenticated users can create feedback
+      allow create: if isAuthenticated() && 
+                       request.resource.data.userId == request.auth.uid;
+      
+      // Users can update their own feedback, admins can update any
+      allow update: if isOwner(resource.data.userId) || isAdmin();
+      
+      // Only admins can delete feedback
+      allow delete: if isAdmin();
+    }    // Notifications collection
+    match /notifications/{notificationId} {
+      // Users can read their own notifications or broadcast notifications
+      // Broadcast notifications have userId = null or 'all'
+      allow read: if isAuthenticated() && 
+                     (resource == null || 
+                      resource.data.userId == request.auth.uid || 
+                      resource.data.userId == null ||
+                      resource.data.userId == 'all');
+      
+      // Users can list notifications by their userId
+      allow list: if isAuthenticated() && 
+                     request.query.limit <= 100;
+      
+      // Users can update their own notifications (mark as read)
+      allow update: if isAuthenticated() && 
+                       resource.data.userId == request.auth.uid &&
+                       request.resource.data.userId == resource.data.userId;
+      
+      // Users can delete their own notifications, admins can delete any
+      allow delete: if isAuthenticated() && 
+                       (resource.data.userId == request.auth.uid || isAdmin());
+      
+      // Admins can create notifications, authenticated users can create for feedback
+      allow create: if isAuthenticated();
+    }
+      // System Settings collection (NEW)
+    match /system_settings/{settingId} {
+      // Admins can read all settings
+      allow read: if isAdmin();
+      
+      // Only admins can write settings
+      allow write: if isAdmin();
+      
+      // Allow admin access to subcollections (like email templates)
+      match /{document=**} {
+        allow read, write: if isAdmin();
+      }
+    }
+    
+    // Default deny all other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

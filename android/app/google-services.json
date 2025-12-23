@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437180084643",
+    "project_id": "nhs-flutter",
+    "storage_bucket": "nhs-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437180084643:android:8f7c849229c5125f9d6a16",
+        "android_client_info": {
+          "package_name": "vn.nguhanhson.dangbo.nhs_dangbo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALKvDqKXLi-A7hVcaSY91uq_Kl-21l4UM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

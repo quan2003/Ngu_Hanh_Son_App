@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xác thực Email - Trung tâm Dữ liệu Đảng Bộ</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .container {
+        background: white;
+        max-width: 500px;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(135deg, #da251d 0%, #ff0000 100%);
+        color: white;
+        padding: 40px 30px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .header p {
+        font-size: 14px;
+        opacity: 0.9;
+      }
+
+      .content {
+        padding: 40px 30px;
+        text-align: center;
+      }
+
+      .icon {
+        font-size: 80px;
+        margin-bottom: 20px;
+      }
+
+      .icon.success {
+        color: #10b981;
+      }
+
+      .icon.error {
+        color: #ef4444;
+      }
+
+      .icon.loading {
+        color: #3b82f6;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      h2 {
+        color: #1f2937;
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        color: #6b7280;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      .button {
+        display: inline-block;
+        background: linear-gradient(135deg, #da251d 0%, #ff0000 100%);
+        color: white;
+        padding: 15px 50px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(218, 37, 29, 0.3);
+      }
+
+      .footer {
+        background: #f9fafb;
+        padding: 20px 30px;
+        text-align: center;
+        color: #6b7280;
+        font-size: 14px;
+      }
+
+      .loader {
+        border: 4px solid #f3f4f6;
+        border-top: 4px solid #da251d;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🌟 Trung tâm Dữ liệu Đảng Bộ</h1>
+        <p>Phường Ngũ Hành Sơn</p>
+      </div>
+
+      <div class="content" id="content">
+        <div class="loader"></div>
+        <h2>Đang xử lý...</h2>
+        <p>Vui lòng đợi trong giây lát</p>
+      </div>
+
+      <div class="footer">
+        <p>© 2025 Trung tâm Dữ liệu Đảng Bộ - Phường Ngũ Hành Sơn</p>
+        <p>📞 Hotline: 0236.3847.999 | 📧 dangbo@nguhanhson.vn</p>
+      </div>
+    </div>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+      import {
+        getAuth,
+        applyActionCode,
+      } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"; // Firebase config
+      const firebaseConfig = {
+        apiKey: "AIzaSyC-D8aCCwhUEfu0DNsRPANU3Rn4tWlieMw",
+        authDomain: "nhs-flutter.firebaseapp.com",
+        projectId: "nhs-flutter",
+        storageBucket: "nhs-flutter.firebasestorage.app",
+        messagingSenderId: "437180084643",
+        appId: "1:437180084643:web:14419f83bec7c0919d6a16",
+        measurementId: "G-8EQ763EMVC",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+
+      // Get action code from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const mode = urlParams.get("mode");
+      const actionCode = urlParams.get("oobCode");
+
+      const content = document.getElementById("content");
+
+      if (mode === "verifyEmail" && actionCode) {
+        // Verify email
+        applyActionCode(auth, actionCode)
+          .then(() => {
+            // Success
+            content.innerHTML = `
+                        <div class="icon success">✅</div>
+                        <h2>Xác thực thành công!</h2>
+                        <p>Email của bạn đã được xác thực.<br>Bạn có thể đóng trang này và quay lại ứng dụng.</p>
+                        <a href="/login" class="button">Đăng nhập ngay</a>
+                    `;
+          })
+          .catch((error) => {
+            // Error
+            let errorMessage = "Đã xảy ra lỗi khi xác thực email.";
+            if (error.code === "auth/expired-action-code") {
+              errorMessage =
+                "Link xác thực đã hết hạn. Vui lòng yêu cầu gửi lại email xác thực.";
+            } else if (error.code === "auth/invalid-action-code") {
+              errorMessage = "Link xác thực không hợp lệ hoặc đã được sử dụng.";
+            }
+
+            content.innerHTML = `
+                        <div class="icon error">❌</div>
+                        <h2>Xác thực thất bại</h2>
+                        <p>${errorMessage}</p>
+                        <a href="/login" class="button">Quay lại đăng nhập</a>
+                    `;
+          });
+      } else {
+        content.innerHTML = `
+                <div class="icon error">⚠️</div>
+                <h2>Link không hợp lệ</h2>
+                <p>Link xác thực không hợp lệ hoặc đã hết hạn.</p>
+                <a href="/login" class="button">Quay lại đăng nhập</a>
+            `;
+      }
+    </script>
+  </body>
+</html>

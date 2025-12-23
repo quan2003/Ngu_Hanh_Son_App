@@ -1,0 +1,173 @@
+1. [STT: 2] Đảng bộ (cơ sở) Ủy ban nhân dân phường
+2. [STT: 3] Đảng bộ (cơ sở) Trung tâm Y tế khu vực Ngũ Hành Sơn
+3. [STT: 4] Chi bộ (cơ sở) Trường THPT Ngũ Hành Sơn
+4. [STT: 5] Chi bộ (cơ sở) Trường THPT Võ Chí Công
+5. [STT: 10] Chi bộ (cơ sở) Công ty Cổ phần Khu du lịch Bắc Mỹ An
+6. [STT: 12] Chi bộ (cơ sở) Công ty Cổ phần Thiên Long Châu 
+7. [STT: 13] Chi bộ Trạm Y tế phường
+8. [STT: 111] Chi bộ 1A (khu vực Hoà Hải trước đây)
+9. [STT: 112] Chi bộ 1B (khu vực Hoà Hải trước đây)
+10. [STT: 113] Chi bộ 2A (khu vực Hoà Hải trước đây)
+11. [STT: 114] Chi bộ 2B (khu vực Hoà Hải trước đây)
+12. [STT: 115] Chi bộ 2C (khu vực Hoà Hải trước đây)
+13. [STT: 116] Chi bộ 3A (khu vực Hoà Hải trước đây)
+14. [STT: 117] Chi bộ 3B (khu vực Hoà Hải trước đây)
+15. [STT: 118] Chi bộ 4A (khu vực Hoà Hải trước đây)
+16. [STT: 119] Chi bộ 4B (khu vực Hoà Hải trước đây)
+17. [STT: 120] Chi bộ 5 (khu vực Hoà Hải trước đây)
+18. [STT: 121] Chi bộ 6 (khu vực Hoà Hải trước đây)
+19. [STT: 122] Chi bộ 7 (khu vực Hoà Hải trước đây)
+20. [STT: 123] Chi bộ 8A (khu vực Hoà Hải trước đây)
+21. [STT: 124] Chi bộ 8B (khu vực Hoà Hải trước đây)
+22. [STT: 125] Chi bộ 8C (khu vực Hoà Hải trước đây)
+23. [STT: 126] Chi bộ 9A (khu vực Hoà Hải trước đây)
+24. [STT: 127] Chi bộ 9B (khu vực Hoà Hải trước đây)
+25. [STT: 128] Chi bộ 9C (khu vực Hoà Hải trước đây)
+26. [STT: 129] Chi bộ 10A (khu vực Hoà Hải trước đây)
+27. [STT: 130] Chi bộ 10B (khu vực Hoà Hải trước đây)
+28. [STT: 131] Chi bộ 10C (khu vực Hoà Hải trước đây)
+29. [STT: 132] Chi bộ 11 (khu vực Hoà Hải trước đây)
+30. [STT: 133]  Chi bộ 12 (khu vực Hoà Hải trước đây)
+31. [STT: 134] Chi bộ 13A (khu vực Hoà Hải trước đây)
+32. [STT: 135] Chi bộ 13B (khu vực Hoà Hải trước đây)
+33. [STT: 136] Chi bộ 14 (khu vực Hoà Hải trước đây)
+34. [STT: 137] Chi bộ 15 (khu vực Hoà Hải trước đây)
+35. [STT: 138] Chi bộ 16A (khu vực Hoà Hải trước đây)
+36. [STT: 139] Chi bộ 16B (khu vực Hoà Hải trước đây)
+37. [STT: 140] Chi bộ 17A (khu vực Hoà Hải trước đây)
+38. [STT: 141] Chi bộ 17B (khu vực Hoà Hải trước đây)
+39. [STT: 142] Chi bộ 18A (khu vực Hoà Hải trước đây)
+40. [STT: 143] Chi bộ 18B (khu vực Hoà Hải trước đây)
+41. [STT: 144] Chi bộ 19A (khu vực Hoà Hải trước đây)
+42. [STT: 145] Chi bộ 19B (khu vực Hoà Hải trước đây)
+43. [STT: 146] Chi bộ 20A (khu vực Hoà Hải trước đây)
+44. [STT: 147] Chi bộ 20B (khu vực Hoà Hải trước đây)
+45. [STT: 148] Chi bộ 21A (khu vực Hoà Hải trước đây)
+46. [STT: 149] Chi bộ 21B (khu vực Hoà Hải trước đây)
+47. [STT: 172] Đảng bộ (cơ sở) Công an phường
+48. [STT: 173] Chi bộ (cơ sở) Quân sự phường
+49. [STT: 999] Đảng bộ (cơ sở) Các cơ quan Đảng 
+50. [STT: 999] Chi bộ Trường Trung học cơ sở Huỳnh Bá Chánh
+51. [STT: 999] Chi bộ 1 An Thượng (khu vực Mỹ An trước đây)
+52. [STT: 999] Chi bộ Đa Mặn 1 (khu vực Khuê Mỹ trước đây)
+53. [STT: 999] Chi bộ Khuê Đông (khu vực Hoà Quý trước đây)
+54. [STT: 999] Chi bộ Trường Trung học cơ sở Trần Đại Nghĩa
+55. [STT: 999] Chi bộ 34-35 Mỹ Đa Đông (khu vực Mỹ An trước đây)	
+56. [STT: 999] Chi bộ Đa Mặn 3 (khu vực Khuê Mỹ trước đây)
+57. [STT: 999] Chi bộ Mân Quang 2 (khu vực Hoà Quý trước đây)
+58. [STT: 999] Chi bộ (cơ sở) Trường Cao đẳng Du lịch Đà Nẵng 
+59. [STT: 999] Chi bộ (cơ sở) Công ty Cổ phần Đầu tư Xây dựng và Phát triển hạ tầng Nam Việt Á 
+60. [STT: 999] Chi bộ Trường Trung học cơ sở Nguyễn Bỉnh Khiêm
+61. [STT: 999] Chi bộ Trường Tiểu học Lê Văn Hiến
+62. [STT: 999] Chi bộ 20-21 An Thượng (khu vực Mỹ An trước đây)
+63. [STT: 999] Chi bộ Trường Trung học cơ sở Lê Lợi
+64. [STT: 999] Chi bộ Trường Tiểu học Phạm Hồng Thái
+65. [STT: 999] Chi bộ 2 An Thượng (khu vực Mỹ An trước đây)
+66. [STT: 999] Chi bộ Mỹ Đa Tây 2 (khu vực Khuê Mỹ trước đây)
+67. [STT: 999] Chi bộ (cơ sở) Trường cấp I, II, III Hermann Gmeiner 
+68. [STT: 999] Chi bộ (cơ sở) Công ty trách nhiệm hữu hạn Du lịch Thương mại Phú An Thịnh
+69. [STT: 999] Chi bộ Trường Tiểu học Lê Lai
+70. [STT: 999] Chi bộ 15-16-17 An Thượng (khu vực Mỹ An trước đây)
+71. [STT: 999] Chi bộ Đa Mặn 3C (khu vực Khuê Mỹ trước đây)
+72. [STT: 999] Chi bộ Đa Mặn 5 (khu vực Khuê Mỹ trước đây)
+73. [STT: 999] Chi bộ (cơ sở) Làng Trẻ em SOS 
+74. [STT: 999] Chi bộ Trường Tiểu học Trần Quang Diệu
+75. [STT: 999] Chi bộ 3 An Thượng (khu vực Mỹ An trước đây)
+76. [STT: 999] Chi bộ 4 An Thượng (khu vực Mỹ An trước đây)
+77. [STT: 999] Chi bộ Đa Mặn 2A (khu vực Khuê Mỹ trước đây)
+78. [STT: 999] Chi bộ Bá Tùng 1 (khu vực Hoà Quý trước đây)
+79. [STT: 999] Chi bộ (cơ sở) Công ty Cổ phần Xây lắp thủy sản Việt Nam 
+80. [STT: 999] Chi bộ Trường Tiểu học Lê Bá Trinh
+81. [STT: 999] Chi bộ 8 An Thượng (khu vực Mỹ An trước đây)
+82. [STT: 999] Chi bộ 9 An Thượng (khu vực Mỹ An trước đây)
+83. [STT: 999] Chi bộ Đa Mặn 4A (khu vực Khuê Mỹ trước đây)
+84. [STT: 999] Chi bộ Trường Tiểu học Nguyễn Duy Trinh
+85. [STT: 999] Chi bộ Trường Mầm non Bạch Dương
+86. [STT: 999] Chi bộ Trường Tiểu học Tô Hiến Thành
+87. [STT: 999] Chi bộ 18 An Thượng (khu vực Mỹ An trước đây)
+88. [STT: 999] Chi bộ 19 An Thượng (khu vực Mỹ An trước đây)
+89. [STT: 999] Chi bộ Đa Mặn 6 (khu vực Khuê Mỹ trước đây)
+90. [STT: 999] Chi bộ Trường Mầm non Hoàng Anh
+91. [STT: 999] Chi bộ 23 An Thượng (khu vực Mỹ An trước đây)
+92. [STT: 999] Chi bộ 24-25 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+93. [STT: 999] Chi bộ Mỹ Đa Đông 1 (khu vực Khuê Mỹ trước đây)
+94. [STT: 999] Chi bộ Khái Tây 2B (khu vực Hoà Quý trước đây)
+95. [STT: 999] Chi bộ Trường Mầm non Sen Hồng
+96. [STT: 999] Chi bộ 22 An Thượng (khu vực Mỹ An trước đây)
+97. [STT: 999] Chi bộ Đa Mặn 8A (khu vực Khuê Mỹ trước đây)
+98. [STT: 999] Chi bộ Đa Mặn 8 (khu vực Khuê Mỹ trước đây)
+99. [STT: 999] Chi bộ Khuê Đông 4 (khu vực Hoà Quý trước đây)
+100. [STT: 999] Chi bộ Trường Mầm non Tân Trà
+101. [STT: 999] Chi bộ 26-27 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+102. [STT: 999] Chi bộ Đa Mặn 7 (khu vực Khuê Mỹ trước đây)
+103. [STT: 999]  Chi bộ Khái Tây 2A (khu vực Hoà Quý trước đây)
+104. [STT: 999] Chi bộ Trường Mầm non Ngọc Lan
+105. [STT: 999] Chi bộ 28 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+106. [STT: 999] Chi bộ 29 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+107. [STT: 999] Chi bộ 30 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+108. [STT: 999] Chi bộ Đa Mặn 9 (khu vực Khuê Mỹ trước đây)
+109. [STT: 999] Chi bộ Khuê Đông 3 (khu vực Hoà Quý trước đây)
+110. [STT: 999] Chi bộ Trường Mầm non Vàng Anh
+111. [STT: 999] Chi bộ 31 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+112. [STT: 999] Chi bộ Đa Mặn 9A (khu vực Khuê Mỹ trước đây)
+113. [STT: 999] Chi bộ Bình Kỳ 2B (khu vực Hoà Quý trước đây)
+114. [STT: 999]  Chi bộ Trường Mầm non Hoàng Lan
+115. [STT: 999] Chi bộ 32 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+116. [STT: 999] Chi bộ 33 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+117. [STT: 999] Chi bộ Đa Mặn 3A (khu vực Khuê Mỹ trước đây)
+118. [STT: 999] Chi bộ Bình Kỳ 2A (khu vực Hoà Quý trước đây)
+119. [STT: 999] Chi bộ Công ty trách nhiệm hữu hạn Một Thành viên Nhật Bích
+120. [STT: 999] Chi bộ 7 An Thượng (khu vực Mỹ An trước đây)
+121. [STT: 999] Chi bộ Mỹ Đa Đông 3 (khu vực Khuê Mỹ trước đây)
+122. [STT: 999] Chi bộ Mỹ Đa Đông 3A (khu vực Khuê Mỹ trước đây)
+123. [STT: 999] Chi bộ Khuê Đông 1 (khu vực Hoà Quý trước đây)
+124. [STT: 999] Chi bộ Trường Tiểu học Mai Đăng Chơn
+125. [STT: 999] Chi bộ 36 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+126. [STT: 999] Chi bộ Mỹ Đa Tây 3 (khu vực Khuê Mỹ trước đây)
+127. [STT: 999] Chi bộ Khuê Đông 2 (khu vực Hoà Quý trước đây)
+128. [STT: 999] Chi bộ 43-44-45 An Thượng (khu vực Mỹ An trước đây)
+129. [STT: 999] Chi bộ Đa Mặn 3B (khu vực Khuê Mỹ trước đây)
+130. [STT: 999] Chi bộ Đa Mặn 4 (khu vực Khuê Mỹ trước đây)
+131. [STT: 999] Chi bộ Bình Kỳ 1 (khu vực Hoà Quý trước đây)
+132. [STT: 999] Chi bộ 37 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+133. [STT: 999] Chi bộ 38 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+134. [STT: 999] Chi bộ Đa Mặn 12 (khu vực Khuê Mỹ trước đây)
+135. [STT: 999] Chi bộ Bá Tùng (khu vực Hoà Quý trước đây)
+136. [STT: 999] Chi bộ Công ty trách nhiệm hữu hạn Xây dựng và Thương mại số 126
+137. [STT: 999] Chi bộ Công ty trách nhiệm hữu hạn thương mại dịch vụ Buổi sáng tuyệt vời
+138. [STT: 999] Chi bộ 39 Mỹ Đa Đông (khu vực Mỹ An trước đây)
+139. [STT: 999] Chi bộ Đa Mặn 2 (khu vực Khuê Mỹ trước đây)
+140. [STT: 999] Chi bộ Khái Tây (khu vực Hoà Quý trước đây)
+141. [STT: 999] Chi bộ 5 An Thượng (khu vực Mỹ An trước đây)
+142. [STT: 999] Chi bộ 6 An Thượng (khu vực Mỹ An trước đây)
+143. [STT: 999] Chi bộ Mỹ Đa Đông 1A (khu vực Khuê Mỹ trước đây)
+144. [STT: 999] Chi bộ An Lưu (khu vực Hoà Quý trước đây)
+145. [STT: 999]  Chi bộ 40 An Thượng (khu vực Mỹ An trước đây)
+146. [STT: 999] Chi bộ 41-42 An Thượng (khu vực Mỹ An trước đây)
+147. [STT: 999] Chi bộ Mỹ Đa Tây 1A (khu vực Khuê Mỹ trước đây)
+148. [STT: 999] Chi bộ Khái Tây 1 (khu vực Hoà Quý trước đây)
+149. [STT: 999] Chi bộ 10-11 An Thượng (khu vực Mỹ An trước đây)
+150. [STT: 999] Chi bộ 12 An Thượng (khu vực Mỹ An trước đây)
+151. [STT: 999] Chi bộ Mỹ Đa Tây 1 (khu vực Khuê Mỹ trước đây)
+152. [STT: 999] Chi bộ Mân Quang 1 (khu vực Hoà Quý trước đây)
+153. [STT: 999] Chi bộ 13 An Thượng (khu vực Mỹ An trước đây)
+154. [STT: 999] Chi bộ 14 An Thượng (khu vực Mỹ An trước đây)
+155. [STT: 999] Chi bộ Mỹ Đa Đông 5 (khu vực Khuê Mỹ trước đây)
+156. [STT: 999] Chi bộ Hải An (khu vực Hoà Quý trước đây)
+157. [STT: 999] Chi bộ 54 Mỹ Đa Tây (khu vực Mỹ An trước đây)
+158. [STT: 999] Chi bộ 53 Mỹ Đa Tây (khu vực Mỹ An trước đây)
+159. [STT: 999] Chi bộ Mỹ Đa Tây 4 (khu vực Khuê Mỹ trước đây)
+160. [STT: 999] Chi bộ Hải An 1 (khu vực Hoà Quý trước đây)
+161. [STT: 999] Chi bộ 49-50-52 Mỹ Đa Tây (khu vực Mỹ An trước đây)
+162. [STT: 999] Chi bộ 51 Mỹ Đa Tây (khu vực Mỹ An trước đây)
+163. [STT: 999] Chi bộ Mỹ Đa Đông 4 (khu vực Khuê Mỹ trước đây)
+164. [STT: 999] Chi bộ Thị An (khu vực Hoà Quý trước đây)
+165. [STT: 999] Chi bộ 56-57 Mỹ Đa Tây (khu vực Mỹ An trước đây)
+166. [STT: 999] Chi bộ 55 Mỹ Đa Tây (khu vực Mỹ An trước đây)
+167. [STT: 999] Chi bộ Mỹ Đa Đông 2 (khu vực Khuê Mỹ trước đây)
+168. [STT: 999] Chi bộ Hải An 2 (khu vực Hoà Quý trước đây)
+169. [STT: 999] Chi bộ 46 An Thượng (khu vực Mỹ An trước đây)
+170. [STT: 999] Chi bộ 47-48 An Thượng (khu vực Mỹ An trước đây)
+171. [STT: 999] Chi bộ Đa Mặn 11 (khu vực Khuê Mỹ trước đây)
+172. [STT: 999] Chi bộ Đa Mặn 10 (khu vực Khuê Mỹ trước đây)
+173. [STT: 999] Chi bộ Bình Kỳ (khu vực Hoà Quý trước đây)

@@ -1,0 +1,37 @@
+{
+  "name": "nhs-firebase-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for managing NHS App Firebase data",
+  "private": true,
+  "scripts": {
+    "check": "node check_setup.js",
+    "preview": "node preview_excel.js",
+    "upload": "node upload_excel_to_firebase.js",
+    "verify": "node verify_data.js",
+    "export": "node export_firebase_to_excel.js",
+    "admin:list": "node manage_admins.js list",
+    "admin:add": "node manage_admins.js add",
+    "admin:remove": "node manage_admins.js remove",
+    "admin:reset": "node manage_admins.js reset",
+    "clear:chi_bo": "node clear_collections.js chi_bo",
+    "clear:dang_bo": "node clear_collections.js dang_bo",
+    "clear:all": "node clear_collections.js all",
+    "restore": "node restore_and_import_geojson.js",
+    "import:geojson": "node import_geojson_only.js"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "nhs"
+  ],
+  "author": "NHS App Team",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.78.0",
+    "firebase-admin": "^12.7.0",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
