@@ -1,0 +1,515 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2538654, 16.0058893]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Chùa Long Hoa",
+        "address": "Đường Phạm Hữu Nhật",
+        "latitude": 16.0058893,
+        "longitude": 108.2538654,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2249826, 15.9873211]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Chùa Phổ Diệu",
+        "address": "Đường Trần Minh Thiệt",
+        "latitude": 15.9873211,
+        "longitude": 108.2249826,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2598677, 16.0038425]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Chùa Tam Thai",
+        "address": "Tổ 173",
+        "latitude": 16.0038425,
+        "longitude": 108.2598677,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2525678, 15.9987511]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Chùa Quán Thế Âm",
+        "address": "48 Sư Vạn Hạnh",
+        "latitude": 15.9987511,
+        "longitude": 108.2525678,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2379414, 16.0375656]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Chùa Bà Đa",
+        "address": "Đường An Tư Công Chúa",
+        "latitude": 16.0375656,
+        "longitude": 108.2379414,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.1823331, 16.0049458]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Chùa Huệ Quang",
+        "address": "Đường Phạm Hữu Nhật",
+        "latitude": 16.0049458,
+        "longitude": 108.1823331,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2549387, 15.9938427]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Chùa Thái Bình",
+        "address": "Bình Giã, Hòa Hải (cũ)",
+        "latitude": 15.9938427,
+        "longitude": 108.2549387,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.197515, 16.0179751]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Chùa Hải An",
+        "address": "Hòa Quý (cũ)",
+        "latitude": 16.0179751,
+        "longitude": 108.197515,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2447626, 16.0238202]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Chùa Khuê Bắc",
+        "address": "K20, Khuê Mỹ(cũ)",
+        "latitude": 16.0238202,
+        "longitude": 108.2447626,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2572737, 16.0039521]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Chùa Tam Tôn",
+        "address": "Hòa Hải (cũ)",
+        "latitude": 16.0039521,
+        "longitude": 108.2572737,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2549267, 15.9998339]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Chùa Thái Sơn",
+        "address": "Đường Sư Vạn Hạnh",
+        "latitude": 15.9998339,
+        "longitude": 108.2549267,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2589592, 16.0039995]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Chùa Từ Tâm",
+        "address": "Đường Lê Văn Hiến",
+        "latitude": 16.0039995,
+        "longitude": 108.2589592,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.251928, 16.0056627]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Chùa Giác Hoàng Viên",
+        "address": "Đường Phạm Hữu Nhật",
+        "latitude": 16.0056627,
+        "longitude": 108.251928,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2536441, 16.0188881]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Chùa Minh Hải",
+        "address": "Đường Nguyễn Đình Trân",
+        "latitude": 16.0188881,
+        "longitude": 108.2536441,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2614423, 16.0040298]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Chùa Linh ứng Non Nước",
+        "address": "Hòa Hải(cũ)",
+        "latitude": 16.0040298,
+        "longitude": 108.2614423,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2537453, 15.9992047]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Chùa Linh Sơn",
+        "address": "Đường Sư Vạn Hạnh",
+        "latitude": 15.9992047,
+        "longitude": 108.2537453,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2475316, 16.003797]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Chùa Hương Sơn",
+        "address": "Hòa Hải (cũ)",
+        "latitude": 16.003797,
+        "longitude": 108.2475316,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2382271, 16.0337449]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Chùa Mỹ Thị",
+        "address": "Đường Nguyễn Lữ",
+        "latitude": 16.0337449,
+        "longitude": 108.2382271,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2352692, 16.010046]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Chùa Vân Long",
+        "address": "Đường Phan Hoan",
+        "latitude": 16.010046,
+        "longitude": 108.2352692,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2529988, 15.9979482]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Chùa Phổ Đà Sơn",
+        "address": "K47 Sư Vạn Hạnh",
+        "latitude": 15.9979482,
+        "longitude": 108.2529988,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2355673, 15.9805132]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Chùa Khái Tây",
+        "address": "Đường Khái Tây",
+        "latitude": 15.9805132,
+        "longitude": 108.2355673,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2544584, 15.9980427]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Chùa Phật Tông",
+        "address": "K47 Sư Vạn Hạnh",
+        "latitude": 15.9980427,
+        "longitude": 108.2544584,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2585052, 16.0038877]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Cơ sở Hồng Tháp",
+        "address": "Đường Lê Văn Hiến",
+        "latitude": 16.0038877,
+        "longitude": 108.2585052,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2083745, 16.0439187]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Thánh thất Trung Sơn",
+        "address": "Đường Lê Văn Hiến",
+        "latitude": 16.0439187,
+        "longitude": 108.2083745,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2384329, 15.9730539]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Thánh xá Cao Đài Khái Tây",
+        "address": "Đường Lưu Quang Vũ",
+        "latitude": 15.9730539,
+        "longitude": 108.2384329,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2403843, 16.0407398]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nhà tịnh dưỡng Họ đạo Trung Thành",
+        "address": "17/5 Đường Trần Văn Dư",
+        "latitude": 16.0407398,
+        "longitude": 108.2403843,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2539861, 15.9778892]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Hội Thánh truyền giáo cơ đốc Hòa Hải (Tin Lành)",
+        "address": "Đường Trà Khê 6",
+        "latitude": 15.9778892,
+        "longitude": 108.2539861,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2149787, 16.0136822]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Điểm nhóm Non Nước (Tin Lành)",
+        "address": "76 Đặng Xuân Thiều",
+        "latitude": 16.0136822,
+        "longitude": 108.2149787,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2516508, 15.9937346]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Điểm nhóm Tin Lành Trưởng lão",
+        "address": "97 Đường Mai Đăng Chơn",
+        "latitude": 15.9937346,
+        "longitude": 108.2516508,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2545342, 15.9924221]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Cộng đoàn Đa Minh Đà Nẵng",
+        "address": "Số 01 Trương Minh Giảng",
+        "latitude": 15.9924221,
+        "longitude": 108.2545342,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.238393, 16.04808]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Giáo xứ An Thượng",
+        "address": "176 Châu Thị Vĩnh Tế",
+        "latitude": 16.04808,
+        "longitude": 108.238393,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2452818, 16.0470542]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Cộng đoàn hưu dưỡng",
+        "address": "123 Phan Tứ",
+        "latitude": 16.0470542,
+        "longitude": 108.2452818,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.241665, 16.045257]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Tu viện Sao Biển",
+        "address": "16, 18 Phan Tứ",
+        "latitude": 16.045257,
+        "longitude": 108.241665,
+        "type": "Tôn giáo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2445426, 16.0467793]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Tu viện PhaoLô (Trường Chuyên biệt Thanh Tâm)",
+        "address": "121 Phan Tứ",
+        "latitude": 16.0467793,
+        "longitude": 108.2445426,
+        "type": "Tôn giáo"
+      }
+    }
+  ]
+}

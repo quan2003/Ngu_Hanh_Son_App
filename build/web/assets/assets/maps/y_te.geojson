@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2576855, 16.0085351]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Trung tâm Y tế khu vực Ngũ Hành Sơn",
+        "address": "582 Lê Văn Hiến",
+        "latitude": 16.0085351,
+        "longitude": 108.2576855,
+        "type": "Y tế"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2374043, 15.9850356]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Trạm Y tế phường Ngũ Hành Sơn",
+        "address": "439 Mai Đăng Chơn",
+        "latitude": 15.9850356,
+        "longitude": 108.2374043,
+        "type": "Y tế"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2400951, 16.0412559]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Điểm Trạm Ngũ Hành Sơn 1\n (Trạm Y tế phường Mỹ An cũ)",
+        "address": "04 Lưu Quang Thuận",
+        "latitude": 16.0412559,
+        "longitude": 108.2400951,
+        "type": "Y tế"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2454519, 16.0238266]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Điểm Trạm Ngũ Hành Sơn 2\n (Trạm Y tế phường Khuê Mỹ cũ)",
+        "address": "Số 42 đường K20",
+        "latitude": 16.0238266,
+        "longitude": 108.2454519,
+        "type": "Y tế"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.255546, 15.9988912]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Điểm Trạm Ngũ Hành Sơn 3\n (Trạm Y tế phường Hòa Hải cũ)",
+        "address": "Tổ 141, Đường Tây Sơn",
+        "latitude": 15.9988912,
+        "longitude": 108.255546,
+        "type": "Y tế"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2487243, 16.0226231]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Bệnh viện Phụ Sản - Nhi",
+        "address": "402 Lê Văn Hiến",
+        "latitude": 16.0226231,
+        "longitude": 108.2487243,
+        "type": "Y tế"
+      }
+    }
+  ]
+}

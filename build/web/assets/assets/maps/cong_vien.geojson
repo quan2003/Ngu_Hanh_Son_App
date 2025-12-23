@@ -1,0 +1,470 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2326749,
+          16.0473699
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo góc đường Nguyễn Tư Giản - Mỹ An 3",
+        "address": "TDP 51, Nguyễn Tư Giản, Mỹ An 3, Mỹ An 4.",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2390403,
+          16.0514904
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo góc đường An Thượng 20 - An Thượng 22",
+        "address": "Đường An Thượng 20-22.",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.248691,
+          16.050136
+        ]
+      },
+      "properties": {
+        "name": "Công viên Hoàng Kế Viêm - Võ Nguyên Giáp",
+        "address": "Ngã ba Hoàng Kế Viêm- Võ Nguyên Giáp",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.253056,
+          16.037778
+        ]
+      },
+      "properties": {
+        "name": "Khu công viên KDC Mỹ Đa Đông 1,2",
+        "address": "Tổ 77 Công viên vườn dạo thửa đất số 54&69 TBĐ số 04 Mỹ Đa Đông",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.020833
+        ]
+      },
+      "properties": {
+        "name": "Khu công viên – Thể thao KDC Mỹ Đa Đông 5",
+        "address": "Tổ 82 Khu thể thao: Khuê Mỹ cũ đất cây xanh tại dự án KDC nhà máy cao su, diện tích, 3.291m2.",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.239444,
+          16.024167
+        ]
+      },
+      "properties": {
+        "name": "Khu công viên KDC Đa Mặn 8A",
+        "address": "Tổ 112 Khu vườn dạo Kho kim khí (Công viên Đa Mặn)",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.240556,
+          16.026389
+        ]
+      },
+      "properties": {
+        "name": "Khu công viên – thể thao KDC Đa Mặn 9",
+        "address": "Tổ 117 Khu thể thao: Khuê Mỹ cũ Khu TDC phía Bắc Bến xe Đông Nam (giáp đường Hoàng Trọng Mậu, Nguyễn Cơ Trạch, Phạm Khiêm Ích), diện tích 1847m2 Nguyễn Cơ Trạch, Phạm Khiêm Ích), diện tích 1847m2",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2431677,
+          16.0221251
+        ]
+      },
+      "properties": {
+        "name": "Khu công viên KDC Đa Mặn 5",
+        "address": "Tổ 111 Gần Khu căn cứ di tích K20",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2618115,
+          15.996539
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo đường Hỏa Sơn 4 - Hỏa Sơn 5 (Khu vườn dạo KDC 13A)",
+        "address": "Đường Hỏa Sơn 4,5,2",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2688225,
+          15.9897589
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo tại khu vực Đông Hải 8 (Khu vườn dạo KDC 18B), tổ 186",
+        "address": "Đường Đông Hải 6,7,9,8",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2682971,
+          15.9806232
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo tổ 190 (72 cũ) Tân Trà (Khu vườn dạo KDC 20B)",
+        "address": "Đường Bát Nàn Công Chúa, Phạm Thận Duật, Trà Lộ",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2488294,
+          15.9808839
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo đường Khái Đông 1 - Khái Đông 2 (Khu vườn dạo KDC 10B)",
+        "address": "Đường Khái Đông 1, Huỳnh Văn Nghệ, Khái Đông 2, Nguyễn Đình Hiến",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2563281,
+          15.989312
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo khu đất X1-2 KPC Hòa Hải (Khu vườn dạo KDC 8B)",
+        "address": "Đường Quán Khái 1, Văn Tân, Ấp Bắc",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2543982,
+          15.9929837
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo 8C (Khu vườn dạo KDC 8C)",
+        "address": "Tổ 26, Lộc Ninh, Quán Khái 7,8, Chu Lai",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2556568,
+          15.9909423
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo 8B phường Hòa Hải (Vườn dạo tại khu phố chợ Hòa Hải mở rộng)",
+        "address": "Đường Quán Khái 2,3,4, Ấp Bắc",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.25165,
+          15.9797204
+        ]
+      },
+      "properties": {
+        "name": "Khu thể thao kết hợp phục vụ SHCĐ KDC 10B (Khu vườn dạo KDC 10B)",
+        "address": "Đường Lê Trung Đình, Nguyễn Thúc Tự, Đông Trà 8",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2703372,
+          15.9828499
+        ]
+      },
+      "properties": {
+        "name": "Khu Vườn dạo KDC 19A (cạnh sân bóng đá Tân Trà)",
+        "address": "Đường Thép Mới, Phạm Thận Duật, Nguyễn Bá Ngọc",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2670285,
+          15.9924135
+        ]
+      },
+      "properties": {
+        "name": "Công viên vườn dạo tổ 184 (66 cũ) phường Hòa Hải - KDC 18A",
+        "address": "Đông Hải 3, Lê Như Hổ, Đông Hải 1",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.272043,
+          15.985007
+        ]
+      },
+      "properties": {
+        "name": "Công viên vườn dạo tổ 188 (70 cũ phường Hòa Hải - KDC 19B",
+        "address": "Trần Văn Hai, Việt Bắc, Phan Đình Thông",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2569,
+          15.987514
+        ]
+      },
+      "properties": {
+        "name": "Khu Vườn dạo KDC 9A (cạnh nhà Thờ Tộc Huỳnh Bá)",
+        "address": "Ngã 3 đường Trần Đại Nghĩa - Huỳnh Bá Chánh",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2704788,
+          15.9829156
+        ]
+      },
+      "properties": {
+        "name": "Trung tâm VHTT khu dân cư Văn hoá biển Tân Trà",
+        "address": "Đường Thép Mới, Phạm Thận Duật, Nguyễn Bá Ngọc",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.25909,
+          16.005914
+        ]
+      },
+      "properties": {
+        "name": "Công viên phía Bắc Ngon Núi Thủy Sơn",
+        "address": "Ngã ba đường Phạm Hữu Nhật- Lê Văn Hiến",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23405,
+          15.990089
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo góc đường Đại An 3 - Lê Quát thuộc Khu TĐC Bá Tùng",
+        "address": "Đường Đại An 3- Lê Quát",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23512,
+          15.9901086
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo Đại An 1-2, Phạm Đức Nam- Cao Hồng Lãnh",
+        "address": "Đường Đại An1-2",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325036,
+          15.9676122
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo Thị An",
+        "address": "Khu Thị An trước trường Vàng Oanh.",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.234684,
+          15.98871
+        ]
+      },
+      "properties": {
+        "name": "Hồ Điều tiết Bá Tùng",
+        "address": "Đường Cao Hồng Lãnh- Lê Trí Viễn",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2400296,
+          15.9950532
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo tổ 01 Bình Kỳ",
+        "address": "Trước Trường Tô Hiến Thành.",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2284689,
+          15.9853073
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo Nhà văn hóa Mân Quang 1",
+        "address": "đường Ban Ban 4- Thân Văn Nhiếp- Lê Thị Hiến",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2402701,
+          15.9859608
+        ]
+      },
+      "properties": {
+        "name": "Khu vườn dạo góc đường Mai Đăng Chơn - Võ Chí Công",
+        "address": "Ngã tư Mai Đăng Chơn- Võ Chí Công",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2379564,
+          15.9854798
+        ]
+      },
+      "properties": {
+        "name": "Công viên vườn dạo đường Phan Tốn",
+        "address": "Đường Phan Tốn- Thái Văn A- Bá Giáng 7",
+        "Layer": "CONG_VIEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2389929,
+          15.9719937
+        ]
+      },
+      "properties": {
+        "name": "Khu thể thao: Hòa Quý cũ Trung tâm văn hóa thể thao Hòa Quý - Thị An đã được phê duyệt.",
+        "address": "Cạnh xưởng may công nghiệp Hòa Quý. Diện tích 5.439m2",
+        "Layer": "CONG_VIEN"
+      }
+    }
+  ]
+}
