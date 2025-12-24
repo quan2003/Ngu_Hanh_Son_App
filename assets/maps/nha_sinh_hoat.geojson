@@ -5,112 +5,91 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2350124,
-          16.0469816
-        ]
+        "coordinates": [108.2375873, 16.0469816]
       },
       "properties": {
         "id": 1,
         "name": "Nhà SHCĐ 03 Chi bộ 7-8-9 An Thượng (các TDP 7, 8, 9, 10, 11",
         "address": "01 Ung Văn Khiêm",
         "latitude": 16.0469816,
-        "longitude": 108.2350124
+        "longitude": 108.2375873
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2388731,
-          16.050343
-        ]
+        "coordinates": [108.240431, 16.0501768]
       },
       "properties": {
         "id": 2,
         "name": "Nhà SHCĐ Chi bộ KDC 10-11  An Thượng (các TDP 12, 13, 14, 15, 16, 17)",
         "address": "166 Đỗ Bá",
-        "latitude": 16.050343,
-        "longitude": 108.2388731
+        "latitude": 16.0501768,
+        "longitude": 108.240431
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2395409,
-          16.0476961
-        ]
+        "coordinates": [108.2421158, 16.0476961]
       },
       "properties": {
         "id": 3,
         "name": "Nhà SHCĐ Chi bộ KDC 15-16-17 An Thượng (các TDP 18, 19, 20, 21) ",
         "address": "07 đường An Thượng 14",
         "latitude": 16.0476961,
-        "longitude": 108.2395409
+        "longitude": 108.2421158
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2389167,
-          16.0466197
-        ]
+        "coordinates": [108.2414916, 16.0466197]
       },
       "properties": {
         "id": 4,
         "name": "Nhà SHCĐ Chi bộ 18 An Thượng (các TDP 18, 25)",
         "address": "222 Châu Thị Vĩnh Tế",
         "latitude": 16.0466197,
-        "longitude": 108.2389167
+        "longitude": 108.2414916
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2427424,
-          16.0466761
-        ]
+        "coordinates": [108.2453173, 16.0466761]
       },
       "properties": {
         "id": 5,
         "name": "Nhà SHCĐ Chi bộ KDC 22-23 An Thượng (các TDP 26, 27) ",
         "address": "41 Dương Tự Quán",
         "latitude": 16.0466761,
-        "longitude": 108.2427424
+        "longitude": 108.2453173
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2410027,
-          16.0426653
-        ]
+        "coordinates": [108.2435776, 16.0426653]
       },
       "properties": {
         "id": 6,
         "name": "Nhà SHCĐ Chi bộ KDC 29 Mỹ Đa Đông (các TDP 28, 29, 30, 32, 33) ",
         "address": "46 Bà Huyện Thanh Quan",
         "latitude": 16.0426653,
-        "longitude": 108.2410027
+        "longitude": 108.2435776
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2444668,
-          16.0498009
-        ]
+        "coordinates": [108.2444668, 16.0498009]
       },
       "properties": {
         "id": 7,
@@ -124,271 +103,223 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2423582,
-          16.0416636
-        ]
+        "coordinates": [108.2449331, 16.0416636]
       },
       "properties": {
         "id": 8,
         "name": "Nhà SHCĐ Chi bộ KDC 36 (các TDP 36, 37, 38, 39)",
         "address": "Kiệt 77/01 Trần Văn Dư",
         "latitude": 16.0416636,
-        "longitude": 108.2423582
+        "longitude": 108.2449331
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2344494,
-          16.0506663
-        ]
+        "coordinates": [108.2370243, 16.0506663]
       },
       "properties": {
         "id": 9,
         "name": "Nhà SHCĐ Chi bộ KDC 40-41-42 (các TDP 48, 49, 50, 51) ",
         "address": "Kiệt 88/43 Phạm Hữu Kính",
         "latitude": 16.0506663,
-        "longitude": 108.2344494
+        "longitude": 108.2370243
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2352698,
-          16.0480205
-        ]
+        "coordinates": [108.2375736, 16.0491378]
       },
       "properties": {
         "id": 10,
         "name": "Nhà SHCĐ Chi bộ KDC 43-44-45 (các TDP 52, 53, 54) ",
         "address": "KDC 43-44-45; Kiệt 68/51 đường Dương Khuê",
-        "latitude": 16.0480205,
-        "longitude": 108.2352698
+        "latitude": 16.0491378,
+        "longitude": 108.2375736
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2359727,
-          16.0453601
-        ]
+        "coordinates": [108.2385476, 16.0453601]
       },
       "properties": {
         "id": 11,
         "name": "Nhà SHCĐ Chi bộ ... (các TDP 55, 56, 57)",
         "address": "163 đường Võ Như Hưng",
         "latitude": 16.0453601,
-        "longitude": 108.2359727
+        "longitude": 108.2385476
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2392495,
-          16.0433634
-        ]
+        "coordinates": [108.239847, 16.0434733]
       },
       "properties": {
         "id": 12,
         "name": "Nhà SHCĐ 02 Chi bộ KDC 51 và Chi bộ 49-50-52 (các TDP 58, 59, 60, 61) ",
         "address": "Kiệt 02/08/02 đường Phan Hành Sơn",
-        "latitude": 16.0433634,
-        "longitude": 108.2392495
+        "latitude": 16.0434733,
+        "longitude": 108.239847
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2378118,
-          16.0394791
-        ]
+        "coordinates": [108.2403793, 16.0394936]
       },
       "properties": {
         "id": 13,
         "name": "Nhà SHCĐ TDP 63, 64, 65 ",
         "address": "KDC 53-54; 150 Hoài Thanh",
-        "latitude": 16.0394791,
-        "longitude": 108.2378118
+        "latitude": 16.0394936,
+        "longitude": 108.2403793
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.253056,
-          16.031389
-        ]
+        "coordinates": [108.2483098, 16.0453161]
       },
       "properties": {
         "id": 14,
         "name": "Nhà SHCĐ Chi bộ 24-25 và 26-27 (TDP 28, 29, 30, 41)",
         "address": "177 Bà Huyện Thanh Quan và Mỹ Đa Đông 10",
-        "latitude": 16.031389,
-        "longitude": 108.253056
+        "latitude": 16.0453161,
+        "longitude": 108.2483098
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2431449,
-          16.0394699
-        ]
+        "coordinates": [108.2480158, 16.03947]
       },
       "properties": {
         "id": 1,
         "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Đông 1 (các TDP 76, 77, 78)  ",
         "address": "33 Trần Văn Thành ",
-        "latitude": 16.0394699,
-        "longitude": 108.2431449
+        "latitude": 16.03947,
+        "longitude": 108.2480158
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2425229,
-          16.0388167
-        ]
+        "coordinates": [108.2450978, 16.0388167]
       },
       "properties": {
         "id": 2,
         "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Đông 4 (TDP 81)  ",
         "address": "Kiệt 50/09 Hồ Xuân Hương",
         "latitude": 16.0388167,
-        "longitude": 108.2425229
+        "longitude": 108.2450978
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2410168,
-          16.0355388
-        ]
+        "coordinates": [108.2435917, 16.0355388]
       },
       "properties": {
         "id": 3,
         "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Tây 3 (các TDP 83, 84, 85) ",
         "address": "10 Mỹ Đa Tây 9",
         "latitude": 16.0355388,
-        "longitude": 108.2410168
+        "longitude": 108.2435917
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2397057,
-          16.0331686
-        ]
+        "coordinates": [108.2422806, 16.0331686]
       },
       "properties": {
         "id": 4,
         "name": "Nhà SHCĐ Chi bộ KDC Mỹ Đa Tây 2 (các TDP  86, 87) ",
         "address": "đường Mỹ Thị",
         "latitude": 16.0331686,
-        "longitude": 108.2397057
+        "longitude": 108.2422806
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2378102,
-          16.0328136
-        ]
+        "coordinates": [108.2422806, 16.0331686]
       },
       "properties": {
         "id": 5,
         "name": "Nhà SHCĐ KDC Đa Mặn 1 (các TDP 90, 92)",
         "address": " 70 Bùi Tá Hán",
-        "latitude": 16.0328136,
-        "longitude": 108.2378102
+        "latitude": 16.0331686,
+        "longitude": 108.2422806
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2435349,
-          16.0307326
-        ]
+        "coordinates": [108.2461098, 16.0307326]
       },
       "properties": {
         "id": 6,
         "name": "Nhà SHCĐ KDC Đa Mặn 3 (các TDP 91, 93) ",
         "address": " 24 Đa Mặn 5",
         "latitude": 16.0307326,
-        "longitude": 108.2435349
+        "longitude": 108.2461098
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2456491,
-          16.0239609
-        ]
+        "coordinates": [108.2456507, 16.0240294]
       },
       "properties": {
         "id": 7,
         "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 3A (TDP 96, 98)",
         "address": "KDC Đa Mặn 3B (kiệt đường Nguyễn Đình Chiểu)",
-        "latitude": 16.0239609,
-        "longitude": 108.2456491
+        "latitude": 16.0240294,
+        "longitude": 108.2456507
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2480023,
-          16.0258839
-        ]
+        "coordinates": [108.2505772, 16.0258839]
       },
       "properties": {
         "id": 8,
         "name": "Nhà SHCĐ Chi bộ KDC 4-4A-12 (các TDP 97, 103) ",
         "address": "28 Đa Mặn Đông 1",
         "latitude": 16.0258839,
-        "longitude": 108.2480023
+        "longitude": 108.2505772
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2418107,
-          16.0257708
-        ]
+        "coordinates": [108.2443856, 16.0257708]
       },
       "properties": {
         "id": 9,
         "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 2A (các TDP 99, 101) ",
         "address": "171 Nguyễn Hữu Hào",
-        "latitude": 16.0257708,
+        "latitude": 108.2443856,
         "longitude": 108.2418107
       }
     },
@@ -396,44 +327,35 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2496276,
-          16.0205625
-        ]
+        "coordinates": [108.2522025, 16.0205625]
       },
       "properties": {
         "id": 10,
         "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 10 (các TDP 104, 105) ",
         "address": "225 Lê Văn Hiến",
         "latitude": 16.0205625,
-        "longitude": 108.2496276
+        "longitude": 108.2522025
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2452903,
-          16.0225229
-        ]
+        "coordinates": [108.2478652, 16.0225229]
       },
       "properties": {
         "id": 11,
         "name": "Nhà SHCĐ Chi bộ KDC Đa Mặn 7 (các TDP 109, 110) ",
         "address": "Kiệt 45/9 đường K20",
         "latitude": 16.0225229,
-        "longitude": 108.2452903
+        "longitude": 108.2478652
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.251095,
-          16.0201059
-        ]
+        "coordinates": [108.251095, 16.0201059]
       },
       "properties": {
         "id": 12,
@@ -447,10 +369,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.253582,
-          16.0190196
-        ]
+        "coordinates": [108.253582, 16.0190196]
       },
       "properties": {
         "id": 13,
@@ -464,10 +383,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2412998,
-          16.029942
-        ]
+        "coordinates": [108.2412998, 16.029942]
       },
       "properties": {
         "id": 14,
@@ -481,10 +397,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2407605,
-          16.0255014
-        ]
+        "coordinates": [108.2407605, 16.0255014]
       },
       "properties": {
         "id": 15,
@@ -498,10 +411,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2454515,
-          16.0385977
-        ]
+        "coordinates": [108.2454515, 16.0385977]
       },
       "properties": {
         "id": 16,
@@ -515,10 +425,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2423714,
-          16.0368179
-        ]
+        "coordinates": [108.2423714, 16.0368179]
       },
       "properties": {
         "id": 17,
@@ -532,10 +439,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2433441,
-          16.0231786
-        ]
+        "coordinates": [108.2433441, 16.0231786]
       },
       "properties": {
         "id": 18,
@@ -549,10 +453,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2368066,
-          16.0314725
-        ]
+        "coordinates": [108.2368066, 16.0314725]
       },
       "properties": {
         "id": 19,
@@ -566,10 +467,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.246667,
-          16.031389
-        ]
+        "coordinates": [108.246667, 16.031389]
       },
       "properties": {
         "id": 20,
@@ -583,10 +481,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2430139,
-          16.0283304
-        ]
+        "coordinates": [108.2430139, 16.0283304]
       },
       "properties": {
         "id": 21,
@@ -600,10 +495,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2476702,
-          16.0206066
-        ]
+        "coordinates": [108.2476702, 16.0206066]
       },
       "properties": {
         "id": 22,
@@ -617,10 +509,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.239861,
-          16.0217772
-        ]
+        "coordinates": [108.239861, 16.0217772]
       },
       "properties": {
         "id": 23,
@@ -634,10 +523,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2589419,
-          16.0011025
-        ]
+        "coordinates": [108.2589419, 16.0011025]
       },
       "properties": {
         "id": 1,
@@ -651,10 +537,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2511393,
-          16.0111125
-        ]
+        "coordinates": [108.2511393, 16.0111125]
       },
       "properties": {
         "id": 2,
@@ -668,10 +551,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2481408,
-          16.0153768
-        ]
+        "coordinates": [108.2481408, 16.0153768]
       },
       "properties": {
         "id": 3,
@@ -685,10 +565,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2535629,
-          16.0089058
-        ]
+        "coordinates": [108.2535629, 16.0089058]
       },
       "properties": {
         "id": 4,
@@ -702,10 +579,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2531653,
-          16.0148114
-        ]
+        "coordinates": [108.2531653, 16.0148114]
       },
       "properties": {
         "id": 5,
@@ -719,10 +593,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2539543,
-          16.0062679
-        ]
+        "coordinates": [108.2539543, 16.0062679]
       },
       "properties": {
         "id": 6,
@@ -736,10 +607,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2604712,
-          15.9971362
-        ]
+        "coordinates": [108.2604712, 15.9971362]
       },
       "properties": {
         "id": 7,
@@ -753,10 +621,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2534051,
-          15.9905522
-        ]
+        "coordinates": [108.2534051, 15.9905522]
       },
       "properties": {
         "id": 8,
@@ -770,10 +635,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2486731,
-          15.9921509
-        ]
+        "coordinates": [108.2486731, 15.9921509]
       },
       "properties": {
         "id": 9,
@@ -787,10 +649,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2542312,
-          15.9886748
-        ]
+        "coordinates": [108.2542312, 15.9886748]
       },
       "properties": {
         "id": 10,
@@ -804,10 +663,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.251405,
-          15.980041
-        ]
+        "coordinates": [108.251405, 15.980041]
       },
       "properties": {
         "id": 11,
@@ -821,10 +677,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.253854,
-          15.9774951
-        ]
+        "coordinates": [108.253854, 15.9774951]
       },
       "properties": {
         "id": 12,
@@ -838,10 +691,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2578269,
-          15.9774974
-        ]
+        "coordinates": [108.2578269, 15.9774974]
       },
       "properties": {
         "id": 13,
@@ -855,10 +705,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2609695,
-          15.9977519
-        ]
+        "coordinates": [108.2609695, 15.9977519]
       },
       "properties": {
         "id": 14,
@@ -872,10 +719,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2619126,
-          15.9986523
-        ]
+        "coordinates": [108.2619126, 15.9986523]
       },
       "properties": {
         "id": 15,
@@ -889,10 +733,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2574102,
-          16.0024789
-        ]
+        "coordinates": [108.2574102, 16.0024789]
       },
       "properties": {
         "id": 16,
@@ -906,10 +747,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2638496,
-          15.992612
-        ]
+        "coordinates": [108.2638496, 15.992612]
       },
       "properties": {
         "id": 17,
@@ -923,10 +761,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2656653,
-          15.9914761
-        ]
+        "coordinates": [108.2656653, 15.9914761]
       },
       "properties": {
         "id": 18,
@@ -940,10 +775,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2653227,
-          15.982739
-        ]
+        "coordinates": [108.2653227, 15.982739]
       },
       "properties": {
         "id": 19,
@@ -957,10 +789,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2674001,
-          15.9794526
-        ]
+        "coordinates": [108.2674001, 15.9794526]
       },
       "properties": {
         "id": 20,
@@ -974,10 +803,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.271006,
-          15.980559
-        ]
+        "coordinates": [108.271006, 15.980559]
       },
       "properties": {
         "id": 21,
@@ -991,10 +817,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2639439,
-          15.9983701
-        ]
+        "coordinates": [108.2639439, 15.9983701]
       },
       "properties": {
         "id": 22,
@@ -1008,10 +831,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2505369,
-          16.0190456
-        ]
+        "coordinates": [108.2505369, 16.0190456]
       },
       "properties": {
         "id": 23,
@@ -1025,10 +845,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2341398,
-          15.9942732
-        ]
+        "coordinates": [108.2341398, 15.9942732]
       },
       "properties": {
         "id": 1,
@@ -1042,10 +859,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2377457,
-          15.9897364
-        ]
+        "coordinates": [108.2377457, 15.9897364]
       },
       "properties": {
         "id": 2,
@@ -1059,10 +873,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2341754,
-          15.9989731
-        ]
+        "coordinates": [108.2341754, 15.9989731]
       },
       "properties": {
         "id": 3,
@@ -1076,10 +887,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2365583,
-          15.9947719
-        ]
+        "coordinates": [108.2365583, 15.9947719]
       },
       "properties": {
         "id": 4,
@@ -1093,10 +901,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2377451,
-          15.9897347
-        ]
+        "coordinates": [108.2377451, 15.9897347]
       },
       "properties": {
         "id": 5,
@@ -1110,10 +915,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2404943,
-          15.988055
-        ]
+        "coordinates": [108.2404943, 15.988055]
       },
       "properties": {
         "id": 6,
@@ -1127,10 +929,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.23711,
-          15.9746915
-        ]
+        "coordinates": [108.23711, 15.9746915]
       },
       "properties": {
         "id": 7,
@@ -1144,10 +943,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2354004,
-          15.9791846
-        ]
+        "coordinates": [108.2354004, 15.9791846]
       },
       "properties": {
         "id": 8,
@@ -1161,10 +957,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2355148,
-          15.9838243
-        ]
+        "coordinates": [108.2355148, 15.9838243]
       },
       "properties": {
         "id": 9,
@@ -1178,10 +971,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2353976,
-          15.9866557
-        ]
+        "coordinates": [108.2353976, 15.9866557]
       },
       "properties": {
         "id": 10,
@@ -1195,10 +985,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.227468,
-          15.9886962
-        ]
+        "coordinates": [108.227468, 15.9886962]
       },
       "properties": {
         "id": 11,
@@ -1212,10 +999,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2266722,
-          15.9848489
-        ]
+        "coordinates": [108.2266722, 15.9848489]
       },
       "properties": {
         "id": 12,
@@ -1229,10 +1013,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2238005,
-          15.9778282
-        ]
+        "coordinates": [108.2238005, 15.9778282]
       },
       "properties": {
         "id": 13,
@@ -1246,10 +1027,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2158459,
-          15.9689094
-        ]
+        "coordinates": [108.2158459, 15.9689094]
       },
       "properties": {
         "id": 14,
@@ -1263,10 +1041,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2275066,
-          15.9644019
-        ]
+        "coordinates": [108.2275066, 15.9644019]
       },
       "properties": {
         "id": 15,
@@ -1280,10 +1055,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2348848,
-          15.9831949
-        ]
+        "coordinates": [108.2348848, 15.9831949]
       },
       "properties": {
         "id": 16,
@@ -1297,10 +1069,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2364469,
-          15.9719187
-        ]
+        "coordinates": [108.2364469, 15.9719187]
       },
       "properties": {
         "id": 17,
@@ -1314,10 +1083,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2271599,
-          15.9831946
-        ]
+        "coordinates": [108.2271599, 15.9831946]
       },
       "properties": {
         "id": 18,
@@ -1331,10 +1097,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2369833,
-          15.9719908
-        ]
+        "coordinates": [108.2369833, 15.9719908]
       },
       "properties": {
         "id": 19,
@@ -1348,10 +1111,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2449191,
-          16.0127596
-        ]
+        "coordinates": [108.2449191, 16.0127596]
       },
       "properties": {
         "id": 20,
@@ -1365,10 +1125,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          108.2445451,
-          16.0087235
-        ]
+        "coordinates": [108.2445451, 16.0087235]
       },
       "properties": {
         "id": 21,
